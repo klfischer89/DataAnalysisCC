@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-#Aufagbe1
+#### Aufagbe 1 ####
 s = pd.Series([10, 20, 30, 40], index=["a", "b", "c", "d"])
 
 print("Element mit Index c:" ,s["c"])
@@ -12,7 +12,7 @@ print("Geänderter Wert an Index b:", s["b"])
 sMittelwert = s.median()
 print("Mittelwert:", sMittelwert)
 
-#Aufgabe2
+#### Aufagbe 2 ####
 s1 = pd.Series(np.random.randint(1, 101, size=5))
 
 print("Series mit 5 zufälligen Zahlen")
@@ -28,7 +28,7 @@ s1Zaehlen = s1[s1>70].value_counts()
 print(s1Zaehlen)
 print("Standardabweichung:", s1.std())
 
-#Aufgabe 3
+#### Aufagbe 3 ####
 
 sFarben = pd.Series(["rot", "blau", "rot", "grün", "blau", "blau"])
 sFarbenUnigque = sFarben.unique()
@@ -40,7 +40,7 @@ print(sFarben)
 sFarben = sFarben.sort_values()
 print(sFarben)
 
-# Aufgabe 4
+#### Aufagbe 4 ####
 
 preise = pd.Series([10, 15, 20], index=["Apfel", "Banane", "Kiwi"])
 mengen = pd.Series([2, 3, 1], index=["Apfel", "Banane", "Kiwi"])
