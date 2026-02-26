@@ -9,7 +9,7 @@ print("Elemente größer 25:")
 print(s[s>25])
 s["b"] = 99
 print("Geänderter Wert an Index b:", s["b"])
-sMittelwert = s.median()
+sMittelwert = s.mean()
 print("Mittelwert:", sMittelwert)
 
 #### Aufagbe 2 ####
