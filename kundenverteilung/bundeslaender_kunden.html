@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_baa5d0a6b44e35e943316605faf8dc23 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_baa5d0a6b44e35e943316605faf8dc23" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_baa5d0a6b44e35e943316605faf8dc23 = L.map(
+                "map_baa5d0a6b44e35e943316605faf8dc23",
+                {
+                    center: [51.1657, 10.4515],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_32eaa68a368c910e99ed99d0f2dd9f64 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_32eaa68a368c910e99ed99d0f2dd9f64.addTo(map_baa5d0a6b44e35e943316605faf8dc23);
+        
+    
+            var marker_8bfe8bd1d76b7c97cf171950e52fd1ca = L.marker(
+                [48.7758, 9.1829],
+                {
+}
+            ).addTo(map_baa5d0a6b44e35e943316605faf8dc23);
+        
+    
+            var icon_0fe471d9905b007cb59d9d5c9e3c5c6f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "users",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1ab2764499c0acabe15c4979b84ef271 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_95641c7462006a169d5af4468a5335de = $(`<div id="html_95641c7462006a169d5af4468a5335de" style="width: 100.0%; height: 100.0%;"><b>Baden-Württemberg</b><br>Kunden: 261<br>Hauptstadt: Stuttgart</div>`)[0];
+                popup_1ab2764499c0acabe15c4979b84ef271.setContent(html_95641c7462006a169d5af4468a5335de);
+            
+        
+
+        marker_8bfe8bd1d76b7c97cf171950e52fd1ca.bindPopup(popup_1ab2764499c0acabe15c4979b84ef271)
+        ;
+
+        
+    
+    
+            marker_8bfe8bd1d76b7c97cf171950e52fd1ca.bindTooltip(
+                `<div>
+                     Baden-Württemberg (261 Kunden)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8bfe8bd1d76b7c97cf171950e52fd1ca.setIcon(icon_0fe471d9905b007cb59d9d5c9e3c5c6f);
+            
+    
+            var marker_022d32a945f7bef7fda65e5ee0d3b764 = L.marker(
+                [48.1351, 11.582],
+                {
+}
+            ).addTo(map_baa5d0a6b44e35e943316605faf8dc23);
+        
+    
+            var icon_afe3fd0c7650700157a16c47e4b13927 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "users",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4382e02d3d2f13487d87e6a13c9d4c96 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13881fa016ad6bae66c32bd917981518 = $(`<div id="html_13881fa016ad6bae66c32bd917981518" style="width: 100.0%; height: 100.0%;"><b>Bayern</b><br>Kunden: 442<br>Hauptstadt: München</div>`)[0];
+                popup_4382e02d3d2f13487d87e6a13c9d4c96.setContent(html_13881fa016ad6bae66c32bd917981518);
+            
+        
+
+        marker_022d32a945f7bef7fda65e5ee0d3b764.bindPopup(popup_4382e02d3d2f13487d87e6a13c9d4c96)
+        ;
+
+        
+    
+    
+            marker_022d32a945f7bef7fda65e5ee0d3b764.bindTooltip(
+                `<div>
+                     Bayern (442 Kunden)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_022d32a945f7bef7fda65e5ee0d3b764.setIcon(icon_afe3fd0c7650700157a16c47e4b13927);
+            
+    
+            var marker_8147b0d8eec3b200aa80e4eda4afd129 = L.marker(
+                [52.52, 13.405],
+                {
+}
+            ).addTo(map_baa5d0a6b44e35e943316605faf8dc23);
+        
+    
+            var icon_c84f231b4348650a882d6cc7bf69f718 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "users",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4c0062105591696f84b746bcd503f957 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3ecfb3eb741a47236319fce91ef71252 = $(`<div id="html_3ecfb3eb741a47236319fce91ef71252" style="width: 100.0%; height: 100.0%;"><b>Berlin</b><br>Kunden: 37<br>Hauptstadt: Berlin</div>`)[0];
+                popup_4c0062105591696f84b746bcd503f957.setContent(html_3ecfb3eb741a47236319fce91ef71252);
+            
+        
+
+        marker_8147b0d8eec3b200aa80e4eda4afd129.bindPopup(popup_4c0062105591696f84b746bcd503f957)
+        ;
+
+        
+    
+    
+            marker_8147b0d8eec3b200aa80e4eda4afd129.bindTooltip(
+                `<div>
+                     Berlin (37 Kunden)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8147b0d8eec3b200aa80e4eda4afd129.setIcon(icon_c84f231b4348650a882d6cc7bf69f718);
+            
+    
+            var marker_6e5240fc31deeb335853d5102335aedf = L.marker(
+                [52.3906, 13.0645],
+                {
+}
+            ).addTo(map_baa5d0a6b44e35e943316605faf8dc23);
+        
+    
+            var icon_48f5f552810af7851608037a2c49657f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "users",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_25d55dcd1a2edcb08110fb525d78c3fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf5d2328c9aa32614514447139af080c = $(`<div id="html_bf5d2328c9aa32614514447139af080c" style="width: 100.0%; height: 100.0%;"><b>Brandenburg</b><br>Kunden: 90<br>Hauptstadt: Potsdam</div>`)[0];
+                popup_25d55dcd1a2edcb08110fb525d78c3fd.setContent(html_bf5d2328c9aa32614514447139af080c);
+            
+        
+
+        marker_6e5240fc31deeb335853d5102335aedf.bindPopup(popup_25d55dcd1a2edcb08110fb525d78c3fd)
+        ;
+
+        
+    
+    
+            marker_6e5240fc31deeb335853d5102335aedf.bindTooltip(
+                `<div>
+                     Brandenburg (90 Kunden)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6e5240fc31deeb335853d5102335aedf.setIcon(icon_48f5f552810af7851608037a2c49657f);
+            
+    
+            var marker_195cf5fb732c9c1914b865f57aac017c = L.marker(
+                [53.0793, 8.8017],
+                {
+}
+            ).addTo(map_baa5d0a6b44e35e943316605faf8dc23);
+        
+    
+            var icon_84d4489a1447cc295cc4466d7d5cf149 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "users",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6a28888171d9068b7a38f5ccbe928af5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5d2a479b026dc519a5336a54597f3c72 = $(`<div id="html_5d2a479b026dc519a5336a54597f3c72" style="width: 100.0%; height: 100.0%;"><b>Bremen</b><br>Kunden: 9<br>Hauptstadt: Bremen</div>`)[0];
+                popup_6a28888171d9068b7a38f5ccbe928af5.setContent(html_5d2a479b026dc519a5336a54597f3c72);
+            
+        
+
+        marker_195cf5fb732c9c1914b865f57aac017c.bindPopup(popup_6a28888171d9068b7a38f5ccbe928af5)
+        ;
+
+        
+    
+    
+            marker_195cf5fb732c9c1914b865f57aac017c.bindTooltip(
+                `<div>
+                     Bremen (9 Kunden)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_195cf5fb732c9c1914b865f57aac017c.setIcon(icon_84d4489a1447cc295cc4466d7d5cf149);
+            
+    
+            var marker_d260d3676301ecc9d47261515d1d253f = L.marker(
+                [53.5511, 9.9937],
+                {
+}
+            ).addTo(map_baa5d0a6b44e35e943316605faf8dc23);
+        
+    
+            var icon_7930c8b1b247c5461f6ab23a9fc34240 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "users",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6ab8b1e80c5557ca70093c8bdd407610 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4ca6815d18f307e2f576e76c4579615 = $(`<div id="html_a4ca6815d18f307e2f576e76c4579615" style="width: 100.0%; height: 100.0%;"><b>Hamburg</b><br>Kunden: 15<br>Hauptstadt: Hamburg</div>`)[0];
+                popup_6ab8b1e80c5557ca70093c8bdd407610.setContent(html_a4ca6815d18f307e2f576e76c4579615);
+            
+        
+
+        marker_d260d3676301ecc9d47261515d1d253f.bindPopup(popup_6ab8b1e80c5557ca70093c8bdd407610)
+        ;
+
+        
+    
+    
+            marker_d260d3676301ecc9d47261515d1d253f.bindTooltip(
+                `<div>
+                     Hamburg (15 Kunden)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d260d3676301ecc9d47261515d1d253f.setIcon(icon_7930c8b1b247c5461f6ab23a9fc34240);
+            
+    
+            var marker_dbc58d3bfeeae2510b02cd9a8b4a50c0 = L.marker(
+                [50.0782, 8.2398],
+                {
+}
+            ).addTo(map_baa5d0a6b44e35e943316605faf8dc23);
+        
+    
+            var icon_e73179b2cab60909733d62798217eac3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "users",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_886c4d0a1e1d9bbb060cf346d57eb998 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb635e221e380140b46d9b10e1e6bfdd = $(`<div id="html_bb635e221e380140b46d9b10e1e6bfdd" style="width: 100.0%; height: 100.0%;"><b>Hessen</b><br>Kunden: 98<br>Hauptstadt: Wiesbaden</div>`)[0];
+                popup_886c4d0a1e1d9bbb060cf346d57eb998.setContent(html_bb635e221e380140b46d9b10e1e6bfdd);
+            
+        
+
+        marker_dbc58d3bfeeae2510b02cd9a8b4a50c0.bindPopup(popup_886c4d0a1e1d9bbb060cf346d57eb998)
+        ;
+
+        
+    
+    
+            marker_dbc58d3bfeeae2510b02cd9a8b4a50c0.bindTooltip(
+                `<div>
+                     Hessen (98 Kunden)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_dbc58d3bfeeae2510b02cd9a8b4a50c0.setIcon(icon_e73179b2cab60909733d62798217eac3);
+            
+    
+            var marker_f33efa440d1508b3a3f33ee2fdb1d93f = L.marker(
+                [53.6355, 11.401],
+                {
+}
+            ).addTo(map_baa5d0a6b44e35e943316605faf8dc23);
+        
+    
+            var icon_d15b9317b4acd432fb9129781660f63a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "users",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_978e4db8e5d4c5b193d130f60754fb17 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_36298393d0a301e638caf3dbd467c9ad = $(`<div id="html_36298393d0a301e638caf3dbd467c9ad" style="width: 100.0%; height: 100.0%;"><b>Mecklenburg-Vorpommern</b><br>Kunden: 163<br>Hauptstadt: Schwerin</div>`)[0];
+                popup_978e4db8e5d4c5b193d130f60754fb17.setContent(html_36298393d0a301e638caf3dbd467c9ad);
+            
+        
+
+        marker_f33efa440d1508b3a3f33ee2fdb1d93f.bindPopup(popup_978e4db8e5d4c5b193d130f60754fb17)
+        ;
+
+        
+    
+    
+            marker_f33efa440d1508b3a3f33ee2fdb1d93f.bindTooltip(
+                `<div>
+                     Mecklenburg-Vorpommern (163 Kunden)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f33efa440d1508b3a3f33ee2fdb1d93f.setIcon(icon_d15b9317b4acd432fb9129781660f63a);
+            
+    
+            var marker_62825c757b6acba4ee51568175d489ff = L.marker(
+                [52.3759, 9.732],
+                {
+}
+            ).addTo(map_baa5d0a6b44e35e943316605faf8dc23);
+        
+    
+            var icon_1173fd5de743d69dc28367c2db98a5cf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "users",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_04c2a83ae1b0afb27df4bea9418f69fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b5bf498ce4e11340e23a471db9b0feb1 = $(`<div id="html_b5bf498ce4e11340e23a471db9b0feb1" style="width: 100.0%; height: 100.0%;"><b>Niedersachsen</b><br>Kunden: 188<br>Hauptstadt: Hannover</div>`)[0];
+                popup_04c2a83ae1b0afb27df4bea9418f69fd.setContent(html_b5bf498ce4e11340e23a471db9b0feb1);
+            
+        
+
+        marker_62825c757b6acba4ee51568175d489ff.bindPopup(popup_04c2a83ae1b0afb27df4bea9418f69fd)
+        ;
+
+        
+    
+    
+            marker_62825c757b6acba4ee51568175d489ff.bindTooltip(
+                `<div>
+                     Niedersachsen (188 Kunden)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_62825c757b6acba4ee51568175d489ff.setIcon(icon_1173fd5de743d69dc28367c2db98a5cf);
+            
+    
+            var marker_7bd8c24c7b78d8748fb8b36c21b2f017 = L.marker(
+                [51.2277, 6.7735],
+                {
+}
+            ).addTo(map_baa5d0a6b44e35e943316605faf8dc23);
+        
+    
+            var icon_111e040d587bd3a34a837b0dcbff8366 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "users",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2eb86f46adac1f59cf1bf3b8ad84bb92 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba4d698d9de430c6905a9caca849f494 = $(`<div id="html_ba4d698d9de430c6905a9caca849f494" style="width: 100.0%; height: 100.0%;"><b>Nordrhein-Westfalen</b><br>Kunden: 173<br>Hauptstadt: Düsseldorf</div>`)[0];
+                popup_2eb86f46adac1f59cf1bf3b8ad84bb92.setContent(html_ba4d698d9de430c6905a9caca849f494);
+            
+        
+
+        marker_7bd8c24c7b78d8748fb8b36c21b2f017.bindPopup(popup_2eb86f46adac1f59cf1bf3b8ad84bb92)
+        ;
+
+        
+    
+    
+            marker_7bd8c24c7b78d8748fb8b36c21b2f017.bindTooltip(
+                `<div>
+                     Nordrhein-Westfalen (173 Kunden)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7bd8c24c7b78d8748fb8b36c21b2f017.setIcon(icon_111e040d587bd3a34a837b0dcbff8366);
+            
+    
+            var marker_e63163c487a513bdaedc1ff7204d592d = L.marker(
+                [49.9988, 8.2711],
+                {
+}
+            ).addTo(map_baa5d0a6b44e35e943316605faf8dc23);
+        
+    
+            var icon_628b2b8fbce41142a8bf1d0f3f46e007 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "users",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d69a2d21518aa861678ca63ae2933ee2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_58d0e07e4731a714277492cb7817419f = $(`<div id="html_58d0e07e4731a714277492cb7817419f" style="width: 100.0%; height: 100.0%;"><b>Rheinland-Pfalz</b><br>Kunden: 445<br>Hauptstadt: Mainz</div>`)[0];
+                popup_d69a2d21518aa861678ca63ae2933ee2.setContent(html_58d0e07e4731a714277492cb7817419f);
+            
+        
+
+        marker_e63163c487a513bdaedc1ff7204d592d.bindPopup(popup_d69a2d21518aa861678ca63ae2933ee2)
+        ;
+
+        
+    
+    
+            marker_e63163c487a513bdaedc1ff7204d592d.bindTooltip(
+                `<div>
+                     Rheinland-Pfalz (445 Kunden)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e63163c487a513bdaedc1ff7204d592d.setIcon(icon_628b2b8fbce41142a8bf1d0f3f46e007);
+            
+    
+            var marker_8819dc6cd527747c3b153c4f2de15c84 = L.marker(
+                [49.2402, 6.9969],
+                {
+}
+            ).addTo(map_baa5d0a6b44e35e943316605faf8dc23);
+        
+    
+            var icon_008eeb4faa56406e2c859f1d625c8e18 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "users",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6d3b92aed58fe0d1f4c79c655d9b468f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7175a66ee5ac5258c4948a78b2b69cc = $(`<div id="html_a7175a66ee5ac5258c4948a78b2b69cc" style="width: 100.0%; height: 100.0%;"><b>Saarland</b><br>Kunden: 11<br>Hauptstadt: Saarbrücken</div>`)[0];
+                popup_6d3b92aed58fe0d1f4c79c655d9b468f.setContent(html_a7175a66ee5ac5258c4948a78b2b69cc);
+            
+        
+
+        marker_8819dc6cd527747c3b153c4f2de15c84.bindPopup(popup_6d3b92aed58fe0d1f4c79c655d9b468f)
+        ;
+
+        
+    
+    
+            marker_8819dc6cd527747c3b153c4f2de15c84.bindTooltip(
+                `<div>
+                     Saarland (11 Kunden)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8819dc6cd527747c3b153c4f2de15c84.setIcon(icon_008eeb4faa56406e2c859f1d625c8e18);
+            
+    
+            var marker_7adf50fd386e41ff18374dd3d497a3b0 = L.marker(
+                [51.0504, 13.7373],
+                {
+}
+            ).addTo(map_baa5d0a6b44e35e943316605faf8dc23);
+        
+    
+            var icon_4e2a61cb63b8b5fbf7e1a5aeb0fcc9b4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "users",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0bb59775df97a65ccf049e06604f0732 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_83a3a836e27bedf9672f23f91ae4f830 = $(`<div id="html_83a3a836e27bedf9672f23f91ae4f830" style="width: 100.0%; height: 100.0%;"><b>Sachsen</b><br>Kunden: 109<br>Hauptstadt: Dresden</div>`)[0];
+                popup_0bb59775df97a65ccf049e06604f0732.setContent(html_83a3a836e27bedf9672f23f91ae4f830);
+            
+        
+
+        marker_7adf50fd386e41ff18374dd3d497a3b0.bindPopup(popup_0bb59775df97a65ccf049e06604f0732)
+        ;
+
+        
+    
+    
+            marker_7adf50fd386e41ff18374dd3d497a3b0.bindTooltip(
+                `<div>
+                     Sachsen (109 Kunden)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7adf50fd386e41ff18374dd3d497a3b0.setIcon(icon_4e2a61cb63b8b5fbf7e1a5aeb0fcc9b4);
+            
+    
+            var marker_b3fa2f65eb4447185775323645b8c7c3 = L.marker(
+                [52.1205, 11.6276],
+                {
+}
+            ).addTo(map_baa5d0a6b44e35e943316605faf8dc23);
+        
+    
+            var icon_119c038ca4d1475ca466da1ab133fe0e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "users",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8c7545bb5e7b83eedbf604e069546787 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_260225ddf35de73f757bd42d816c111d = $(`<div id="html_260225ddf35de73f757bd42d816c111d" style="width: 100.0%; height: 100.0%;"><b>Sachsen-Anhalt</b><br>Kunden: 68<br>Hauptstadt: Magdeburg</div>`)[0];
+                popup_8c7545bb5e7b83eedbf604e069546787.setContent(html_260225ddf35de73f757bd42d816c111d);
+            
+        
+
+        marker_b3fa2f65eb4447185775323645b8c7c3.bindPopup(popup_8c7545bb5e7b83eedbf604e069546787)
+        ;
+
+        
+    
+    
+            marker_b3fa2f65eb4447185775323645b8c7c3.bindTooltip(
+                `<div>
+                     Sachsen-Anhalt (68 Kunden)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b3fa2f65eb4447185775323645b8c7c3.setIcon(icon_119c038ca4d1475ca466da1ab133fe0e);
+            
+    
+            var marker_b6db680923c51815613bc12733cfb229 = L.marker(
+                [54.3233, 10.1228],
+                {
+}
+            ).addTo(map_baa5d0a6b44e35e943316605faf8dc23);
+        
+    
+            var icon_93600c14ca9a7a1b1b0bee6d11097014 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "users",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c4216c0d077483dd6113fb56a4ea12b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5361c9aac993b25d8ac0729cf3bf5e1b = $(`<div id="html_5361c9aac993b25d8ac0729cf3bf5e1b" style="width: 100.0%; height: 100.0%;"><b>Schleswig-Holstein</b><br>Kunden: 253<br>Hauptstadt: Kiel</div>`)[0];
+                popup_c4216c0d077483dd6113fb56a4ea12b2.setContent(html_5361c9aac993b25d8ac0729cf3bf5e1b);
+            
+        
+
+        marker_b6db680923c51815613bc12733cfb229.bindPopup(popup_c4216c0d077483dd6113fb56a4ea12b2)
+        ;
+
+        
+    
+    
+            marker_b6db680923c51815613bc12733cfb229.bindTooltip(
+                `<div>
+                     Schleswig-Holstein (253 Kunden)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b6db680923c51815613bc12733cfb229.setIcon(icon_93600c14ca9a7a1b1b0bee6d11097014);
+            
+    
+            var marker_7008992dc698c3b50d3054093596a4fa = L.marker(
+                [50.9778, 11.0287],
+                {
+}
+            ).addTo(map_baa5d0a6b44e35e943316605faf8dc23);
+        
+    
+            var icon_885f6f979a8958c71a68a9c237578921 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "users",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ec5850181d04cc70e3ae28965e9f272f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e0186cd6cf809d786185f8915887eb7d = $(`<div id="html_e0186cd6cf809d786185f8915887eb7d" style="width: 100.0%; height: 100.0%;"><b>Thüringen</b><br>Kunden: 138<br>Hauptstadt: Erfurt</div>`)[0];
+                popup_ec5850181d04cc70e3ae28965e9f272f.setContent(html_e0186cd6cf809d786185f8915887eb7d);
+            
+        
+
+        marker_7008992dc698c3b50d3054093596a4fa.bindPopup(popup_ec5850181d04cc70e3ae28965e9f272f)
+        ;
+
+        
+    
+    
+            marker_7008992dc698c3b50d3054093596a4fa.bindTooltip(
+                `<div>
+                     Thüringen (138 Kunden)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7008992dc698c3b50d3054093596a4fa.setIcon(icon_885f6f979a8958c71a68a9c237578921);
+            
+</script>
+</html>
