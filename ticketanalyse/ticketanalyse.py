@@ -166,6 +166,17 @@ plt.show()
 # 💾 7. DATEN IN EINEM DATA FRAME (KPI DASHBOARD)
 # ============================================================================
 
+JAHR = 2025  # Dein Jahr
+
+tickets_pro_woche = anzahl_tickets_pro_Woche.reset_index()
+
+# Woche zu datetime: Erster Tag der Woche (Montag)
+tickets_pro_woche['Woche_dt'] = tickets_pro_woche['Woche'].apply(
+    lambda w: pd.to_datetime(f"{JAHR}-W{w:02.0f}-1", format='%Y-W%W-%w')
+)
+
+print("✅ Wochen als datetime:")
+
 # 1. Alle Daten normalisieren (Index → Kategorie-Spalte)
 tickets_pro_woche = anzahl_tickets_pro_Woche.reset_index().rename(columns={0: 'Wert'})
 tickets_pro_woche.columns = ['Kategorie', 'Wert']
@@ -228,5 +239,5 @@ dfKPI.to_sql(
     method='multi'           # Schnelleres INSERT (MySQL)
 )
 
-print("✅ ERFOLGREICH in MySQL-Tabelle 'tickets' gespeichert!")
+print("✅ ERFOLGREICH in MySQL-Tabelle 'kpi' gespeichert!")
 print(f"📋 Finale Daten: {len(dfKPI)} Zeilen, {len(dfKPI.columns)} Spalten")
