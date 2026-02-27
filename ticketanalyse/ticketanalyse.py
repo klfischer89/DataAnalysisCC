@@ -200,3 +200,33 @@ print(dfKPI)
 print("\n📊 KPI-Zusammenfassung:")
 pivot_kpi = dfKPI.pivot_table(values='Wert', index='KPI_Typ', aggfunc=['count', 'mean', 'sum']).round(1)
 print(pivot_kpi)
+
+# ============================================================================
+# 💾 8. DATEN NACH MYSQL EXPORTIEREN
+# ============================================================================
+from sqlalchemy import create_engine
+
+# Verbindung konfigurieren
+user = "root"
+password = "Kallefisch,-123!"
+host = "127.0.0.1"
+port = 3306
+database = 'ticketanalyse'
+
+# Engine erstellen
+engine = create_engine(f"mysql+pymysql://{user}:{password}@{host}:{port}/{database}")
+
+print("\n📤 Speichere in MySQL...")
+
+# Tabelle: 'tickets' (ersetzt wenn vorhanden)
+dfKPI.to_sql(
+    name='kpi',              # Tabellenname
+    con=engine,              # Datenbankverbindung
+    if_exists='replace',     # Ersetzt Tabelle (oder 'append' zum Anhängen)
+    index=False,             # Pandas Index NICHT speichern
+    chunksize=1000,          # In Batches von 1000 Zeilen (schneller)
+    method='multi'           # Schnelleres INSERT (MySQL)
+)
+
+print("✅ ERFOLGREICH in MySQL-Tabelle 'tickets' gespeichert!")
+print(f"📋 Finale Daten: {len(dfKPI)} Zeilen, {len(dfKPI.columns)} Spalten")
