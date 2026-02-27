@@ -226,7 +226,7 @@ from sqlalchemy import create_engine
 
 # Verbindung konfigurieren
 user = "root"
-password = "Kallefisch,-123!"
+password = ""
 host = "127.0.0.1"
 port = 3306
 database = 'ticketanalyse'
