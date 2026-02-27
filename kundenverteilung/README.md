@@ -22,4 +22,4 @@ database = 'datenanalyse'
 
 ## Visualisierung in Grafana ##
 
-[Link zum Snapshot vom Grafana Dashboard](http://localhost:3000/dashboard/snapshot/1PLO0ndBlzNKgg3G2suWheu42f2dLfn0) in dem die Daten visualisiert wurden
+[Link zum Snapshot vom Grafana Dashboard](http://localhost:3000/dashboard/snapshot/mlQcqIueUAlIGn3OH3lFIs8MKlZZJ1nN) in dem die Daten visualisiert wurden
