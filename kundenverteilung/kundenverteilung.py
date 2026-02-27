@@ -3,7 +3,7 @@ import pandas as pd
 
 # Verbindung konfigurieren
 user = "root"
-password = ""
+password = "Kallefisch,-123!"
 host = "127.0.0.1"
 port = 3306
 database = 'datenanalyse'
@@ -31,7 +31,7 @@ dfMerged2 = pd.merge(dfKunde, dfMerged1, on = 'PLZ', how='left')
 # Nach Bundesland gruppieren und zählen, um Anzahl Kunden pro Bundesland zu ermitteln
 dfBundeslandKunden = dfMerged2.groupby("Bundesland").size()
 
-# Reset index um Spaltennamen anpassen zu könne, nötig für letzen Merge
+# Reset index um Spaltennamen anpassen zu können, wird zum Dataframe, nötig für letzen Merge
 dfBundeslandKunden = dfBundeslandKunden.reset_index()
 dfBundeslandKunden.columns = ['Bundesland', 'Kunden_Anzahl']
 # print(dfBundeslandKunden)
