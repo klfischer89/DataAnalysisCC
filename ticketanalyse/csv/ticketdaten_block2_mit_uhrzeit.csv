@@ -1,0 +1,201 @@
+Ticket_ID,Eingangszeitpunkt,Abschlusszeitpunkt,Kategorie,Bearbeiter,Anzahl_Mails,Priorität,Status,Bearbeitungszeit_h,Woche
+T1000,2025-07-10 15:00:00,2025-07-19 18:00:00,Verwaltung,Ben,4,Mittel,Abgeschlossen,219.0,28
+T1001,2025-06-12 15:36:00,2025-06-20 17:36:00,IT,Anna,5,Mittel,Abgeschlossen,194.0,24
+T1002,2025-06-27 11:07:00,2025-07-04 11:07:00,Personal,David,3,Hoch,Abgeschlossen,168.0,26
+T1003,2025-05-31 09:12:00,2025-06-04 13:12:00,IT,Eva,5,Hoch,Abgeschlossen,100.0,22
+T1004,2025-05-16 14:06:00,2025-05-19 15:06:00,Verwaltung,David,2,Mittel,Abgeschlossen,73.0,20
+T1005,2025-06-18 10:36:00,2025-06-24 12:36:00,IT,Anna,1,Mittel,Abgeschlossen,146.0,25
+T1006,2025-05-18 12:29:00,,IT,Anna,4,Mittel,Offen,,20
+T1007,2025-05-24 16:50:00,2025-06-01 20:50:00,IT,Eva,6,Mittel,Abgeschlossen,196.0,21
+T1008,2025-05-15 13:45:00,2025-05-21 16:45:00,IT,David,3,Niedrig,Abgeschlossen,147.0,20
+T1009,2025-05-08 13:57:00,,IT,Anna,5,Hoch,Offen,,19
+T1010,2025-06-15 08:14:00,2025-06-16 12:14:00,Personal,Ben,6,Hoch,Abgeschlossen,28.0,24
+T1011,2025-05-24 10:34:00,,Personal,Anna,6,Hoch,Offen,,21
+T1012,2025-06-05 13:35:00,2025-06-12 15:35:00,Personal,Anna,5,Niedrig,Abgeschlossen,170.0,23
+T1013,2025-06-07 14:24:00,,Verwaltung,Clara,4,Mittel,Offen,,23
+T1014,2025-05-05 12:20:00,2025-05-08 14:20:00,IT,Clara,1,Mittel,Abgeschlossen,74.0,19
+T1015,2025-05-26 08:57:00,,IT,Ben,2,Mittel,Offen,,22
+T1016,2025-06-10 13:25:00,,Verwaltung,Ben,6,Mittel,Offen,,24
+T1017,2025-05-28 13:54:00,,Personal,Clara,1,Niedrig,Offen,,22
+T1018,2025-05-26 08:32:00,,Personal,Eva,6,Mittel,Offen,,22
+T1019,2025-05-16 15:29:00,2025-05-23 19:29:00,Personal,Anna,4,Mittel,Abgeschlossen,172.0,20
+T1020,2025-05-07 11:43:00,2025-05-11 15:43:00,Verwaltung,Eva,1,Mittel,Abgeschlossen,100.0,19
+T1021,2025-07-06 10:36:00,2025-07-15 12:36:00,IT,David,2,Mittel,Abgeschlossen,218.0,27
+T1022,2025-06-19 14:08:00,2025-06-25 17:08:00,Personal,Clara,1,Mittel,Abgeschlossen,147.0,25
+T1023,2025-05-04 12:39:00,2025-05-14 15:39:00,Verwaltung,Ben,2,Niedrig,Abgeschlossen,243.0,18
+T1024,2025-06-15 11:53:00,2025-06-16 11:53:00,Personal,Ben,1,Mittel,Abgeschlossen,24.0,24
+T1025,2025-05-23 08:22:00,2025-05-28 11:22:00,Verwaltung,David,1,Mittel,Abgeschlossen,123.0,21
+T1026,2025-06-29 13:24:00,,Verwaltung,Eva,3,Mittel,Offen,,26
+T1027,2025-06-03 08:53:00,2025-06-09 08:53:00,IT,Ben,6,Niedrig,Abgeschlossen,144.0,23
+T1028,2025-06-07 12:13:00,,IT,Eva,4,Niedrig,Offen,,23
+T1029,2025-06-13 16:38:00,,Personal,Anna,2,Hoch,Offen,,24
+T1030,2025-06-14 15:22:00,2025-06-20 18:22:00,Verwaltung,Anna,3,Niedrig,Abgeschlossen,147.0,24
+T1031,2025-05-27 14:12:00,2025-06-01 18:12:00,Verwaltung,David,3,Mittel,Abgeschlossen,124.0,22
+T1032,2025-06-27 09:57:00,2025-06-30 09:57:00,Verwaltung,David,1,Niedrig,Abgeschlossen,72.0,26
+T1033,2025-05-21 13:27:00,2025-05-23 14:27:00,Verwaltung,Eva,4,Mittel,Abgeschlossen,49.0,21
+T1034,2025-05-20 11:54:00,,IT,Ben,2,Mittel,Offen,,21
+T1035,2025-05-30 13:01:00,2025-06-02 15:01:00,Personal,David,6,Mittel,Abgeschlossen,74.0,22
+T1036,2025-05-12 16:09:00,2025-05-17 16:09:00,Personal,David,5,Hoch,Abgeschlossen,120.0,20
+T1037,2025-05-08 10:20:00,,Personal,Anna,2,Mittel,Offen,,19
+T1038,2025-05-06 10:39:00,2025-05-14 11:39:00,Verwaltung,David,5,Mittel,Abgeschlossen,193.0,19
+T1039,2025-06-11 15:28:00,2025-06-20 16:28:00,IT,Clara,4,Niedrig,Abgeschlossen,217.0,24
+T1040,2025-06-04 11:31:00,2025-06-10 13:31:00,Personal,Clara,5,Niedrig,Abgeschlossen,146.0,23
+T1041,2025-05-27 14:15:00,,Personal,David,6,Niedrig,Offen,,22
+T1042,2025-07-09 14:22:00,2025-07-15 16:22:00,Personal,Eva,3,Mittel,Abgeschlossen,146.0,28
+T1043,2025-06-02 09:56:00,,IT,Anna,4,Mittel,Offen,,23
+T1044,2025-06-28 08:13:00,2025-07-02 11:13:00,Personal,Eva,5,Mittel,Abgeschlossen,99.0,26
+T1045,2025-05-15 09:04:00,2025-05-22 13:04:00,IT,Ben,3,Niedrig,Abgeschlossen,172.0,20
+T1046,2025-05-20 11:51:00,2025-05-25 11:51:00,IT,Ben,2,Niedrig,Abgeschlossen,120.0,21
+T1047,2025-06-09 11:26:00,2025-06-10 13:26:00,Verwaltung,Ben,5,Hoch,Abgeschlossen,26.0,24
+T1048,2025-05-19 12:02:00,2025-05-27 12:02:00,IT,David,4,Mittel,Abgeschlossen,192.0,21
+T1049,2025-06-30 16:30:00,2025-07-08 20:30:00,Personal,Anna,4,Mittel,Abgeschlossen,196.0,27
+T1050,2025-05-02 14:27:00,,Verwaltung,Clara,3,Niedrig,Offen,,18
+T1051,2025-06-07 15:30:00,2025-06-09 15:30:00,Verwaltung,Anna,6,Mittel,Abgeschlossen,48.0,23
+T1052,2025-05-23 08:43:00,,Verwaltung,Clara,5,Hoch,Offen,,21
+T1053,2025-07-07 15:05:00,,Verwaltung,Ben,4,Mittel,Offen,,28
+T1054,2025-05-29 13:47:00,2025-06-06 14:47:00,Verwaltung,Anna,3,Niedrig,Abgeschlossen,193.0,22
+T1055,2025-07-02 15:07:00,,Personal,Eva,4,Mittel,Offen,,27
+T1056,2025-07-10 09:57:00,2025-07-17 11:57:00,IT,Eva,4,Niedrig,Abgeschlossen,170.0,28
+T1057,2025-07-06 13:10:00,,Personal,David,4,Mittel,Offen,,27
+T1058,2025-06-05 12:15:00,2025-06-11 13:15:00,IT,Anna,2,Mittel,Abgeschlossen,145.0,23
+T1059,2025-06-15 14:16:00,,Personal,David,3,Mittel,Offen,,24
+T1060,2025-05-18 16:25:00,,Verwaltung,Clara,3,Niedrig,Offen,,20
+T1061,2025-07-07 10:56:00,2025-07-12 14:56:00,IT,David,1,Mittel,Abgeschlossen,124.0,28
+T1062,2025-06-02 11:22:00,2025-06-09 13:22:00,Verwaltung,Eva,6,Hoch,Abgeschlossen,170.0,23
+T1063,2025-06-11 14:49:00,2025-06-13 17:49:00,Verwaltung,Clara,4,Mittel,Abgeschlossen,51.0,24
+T1064,2025-06-14 08:50:00,2025-06-22 09:50:00,IT,Ben,6,Mittel,Abgeschlossen,193.0,24
+T1065,2025-05-26 16:52:00,2025-05-29 16:52:00,Verwaltung,Clara,4,Hoch,Abgeschlossen,72.0,22
+T1066,2025-06-23 11:05:00,2025-06-24 11:05:00,IT,Anna,3,Niedrig,Abgeschlossen,24.0,26
+T1067,2025-07-04 09:41:00,,IT,Anna,1,Niedrig,Offen,,27
+T1068,2025-06-08 15:09:00,,IT,Anna,6,Niedrig,Offen,,23
+T1069,2025-05-02 13:23:00,2025-05-03 16:23:00,Verwaltung,Eva,2,Mittel,Abgeschlossen,27.0,18
+T1070,2025-05-11 09:04:00,2025-05-17 09:04:00,Verwaltung,Eva,4,Mittel,Abgeschlossen,144.0,19
+T1071,2025-05-19 08:04:00,,Verwaltung,Ben,6,Mittel,Offen,,21
+T1072,2025-06-05 13:32:00,2025-06-14 14:32:00,Verwaltung,David,6,Mittel,Abgeschlossen,217.0,23
+T1073,2025-05-10 10:12:00,2025-05-17 12:12:00,Personal,Anna,4,Mittel,Abgeschlossen,170.0,19
+T1074,2025-06-04 10:26:00,,IT,Anna,4,Mittel,Offen,,23
+T1075,2025-05-11 11:13:00,2025-05-12 11:13:00,Personal,Clara,2,Hoch,Abgeschlossen,24.0,19
+T1076,2025-06-07 08:23:00,2025-06-10 08:23:00,Verwaltung,David,4,Mittel,Abgeschlossen,72.0,23
+T1077,2025-07-09 10:30:00,2025-07-11 14:30:00,IT,Ben,2,Mittel,Abgeschlossen,52.0,28
+T1078,2025-06-15 14:45:00,2025-06-17 15:45:00,IT,David,3,Mittel,Abgeschlossen,49.0,24
+T1079,2025-06-20 08:18:00,2025-06-24 08:18:00,Verwaltung,Eva,3,Mittel,Abgeschlossen,96.0,25
+T1080,2025-05-16 08:15:00,2025-05-18 09:15:00,Verwaltung,Clara,5,Mittel,Abgeschlossen,49.0,20
+T1081,2025-05-07 13:27:00,2025-05-12 17:27:00,IT,Eva,2,Mittel,Abgeschlossen,124.0,19
+T1082,2025-07-09 10:56:00,,IT,Clara,5,Hoch,Offen,,28
+T1083,2025-05-24 10:21:00,2025-05-28 13:21:00,Personal,David,3,Niedrig,Abgeschlossen,99.0,21
+T1084,2025-06-15 08:31:00,,IT,Anna,2,Niedrig,Offen,,24
+T1085,2025-07-09 15:02:00,2025-07-11 19:02:00,IT,Clara,4,Niedrig,Abgeschlossen,52.0,28
+T1086,2025-06-25 12:33:00,,Personal,Eva,5,Hoch,Offen,,26
+T1087,2025-06-11 16:47:00,,Personal,David,5,Mittel,Offen,,24
+T1088,2025-05-19 13:41:00,,Verwaltung,Eva,4,Mittel,Offen,,21
+T1089,2025-06-01 14:26:00,2025-06-07 15:26:00,IT,Anna,3,Hoch,Abgeschlossen,145.0,22
+T1090,2025-06-17 10:34:00,2025-06-26 10:34:00,Verwaltung,Ben,1,Mittel,Abgeschlossen,216.0,25
+T1091,2025-07-01 14:27:00,2025-07-11 17:27:00,IT,Anna,1,Hoch,Abgeschlossen,243.0,27
+T1092,2025-06-18 14:49:00,,Verwaltung,Ben,1,Mittel,Offen,,25
+T1093,2025-06-25 08:39:00,2025-07-04 12:39:00,IT,Eva,3,Mittel,Abgeschlossen,220.0,26
+T1094,2025-06-26 16:46:00,,Personal,Ben,6,Hoch,Offen,,26
+T1095,2025-05-23 10:28:00,2025-06-01 13:28:00,Verwaltung,Ben,3,Mittel,Abgeschlossen,219.0,21
+T1096,2025-05-01 13:46:00,2025-05-07 16:46:00,Personal,Ben,4,Mittel,Abgeschlossen,147.0,18
+T1097,2025-06-10 09:05:00,,Personal,Ben,4,Hoch,Offen,,24
+T1098,2025-07-03 12:56:00,2025-07-10 14:56:00,IT,Ben,6,Hoch,Abgeschlossen,170.0,27
+T1099,2025-06-18 15:09:00,2025-06-23 18:09:00,Verwaltung,Anna,5,Niedrig,Abgeschlossen,123.0,25
+T1100,2025-05-01 08:24:00,2025-05-05 11:24:00,Verwaltung,Anna,4,Hoch,Abgeschlossen,99.0,18
+T1101,2025-05-08 11:19:00,2025-05-18 11:19:00,Personal,David,1,Mittel,Abgeschlossen,240.0,19
+T1102,2025-06-27 15:38:00,,Personal,Eva,2,Mittel,Offen,,26
+T1103,2025-06-20 10:08:00,2025-06-25 11:08:00,Personal,Anna,1,Mittel,Abgeschlossen,121.0,25
+T1104,2025-06-08 16:20:00,2025-06-14 20:20:00,Personal,Clara,3,Niedrig,Abgeschlossen,148.0,23
+T1105,2025-06-09 13:31:00,,IT,Anna,1,Niedrig,Offen,,24
+T1106,2025-07-01 16:34:00,2025-07-11 17:34:00,Personal,Ben,6,Mittel,Abgeschlossen,241.0,27
+T1107,2025-05-14 13:18:00,2025-05-19 13:18:00,Verwaltung,Anna,1,Niedrig,Abgeschlossen,120.0,20
+T1108,2025-06-17 11:57:00,,Verwaltung,David,3,Mittel,Offen,,25
+T1109,2025-07-07 16:10:00,,Verwaltung,Eva,2,Niedrig,Offen,,28
+T1110,2025-05-23 10:10:00,2025-05-29 10:10:00,IT,Clara,3,Niedrig,Abgeschlossen,144.0,21
+T1111,2025-05-16 13:28:00,2025-05-23 17:28:00,IT,Clara,1,Hoch,Abgeschlossen,172.0,20
+T1112,2025-05-31 08:23:00,2025-06-08 12:23:00,Personal,Anna,3,Mittel,Abgeschlossen,196.0,22
+T1113,2025-05-03 08:52:00,2025-05-08 11:52:00,IT,Eva,4,Mittel,Abgeschlossen,123.0,18
+T1114,2025-05-07 10:05:00,2025-05-08 11:05:00,IT,David,2,Niedrig,Abgeschlossen,25.0,19
+T1115,2025-05-18 15:24:00,,Personal,Ben,3,Hoch,Offen,,20
+T1116,2025-05-25 12:58:00,2025-05-27 14:58:00,Personal,David,5,Niedrig,Abgeschlossen,50.0,21
+T1117,2025-07-09 16:50:00,2025-07-18 17:50:00,IT,Anna,4,Mittel,Abgeschlossen,217.0,28
+T1118,2025-05-30 09:43:00,2025-06-03 13:43:00,Personal,Eva,6,Mittel,Abgeschlossen,100.0,22
+T1119,2025-05-30 11:56:00,,IT,Clara,4,Niedrig,Offen,,22
+T1120,2025-05-04 14:18:00,,Verwaltung,Ben,2,Mittel,Offen,,18
+T1121,2025-07-01 11:23:00,2025-07-10 13:23:00,IT,Eva,2,Mittel,Abgeschlossen,218.0,27
+T1122,2025-06-04 16:05:00,2025-06-12 19:05:00,Personal,Ben,6,Niedrig,Abgeschlossen,195.0,23
+T1123,2025-05-04 11:21:00,2025-05-10 12:21:00,Verwaltung,David,4,Niedrig,Abgeschlossen,145.0,18
+T1124,2025-06-04 14:59:00,2025-06-13 17:59:00,Personal,David,2,Mittel,Abgeschlossen,219.0,23
+T1125,2025-06-02 12:20:00,2025-06-10 16:20:00,IT,Anna,2,Mittel,Abgeschlossen,196.0,23
+T1126,2025-05-22 10:14:00,2025-05-23 14:14:00,Personal,Anna,1,Niedrig,Abgeschlossen,28.0,21
+T1127,2025-06-25 09:12:00,,Verwaltung,Clara,6,Niedrig,Offen,,26
+T1128,2025-06-04 08:12:00,2025-06-06 09:12:00,IT,David,6,Niedrig,Abgeschlossen,49.0,23
+T1129,2025-06-16 15:12:00,2025-06-18 16:12:00,Personal,Anna,1,Hoch,Abgeschlossen,49.0,25
+T1130,2025-06-22 12:05:00,2025-06-23 14:05:00,IT,Clara,2,Niedrig,Abgeschlossen,26.0,25
+T1131,2025-07-05 10:14:00,2025-07-13 12:14:00,IT,David,6,Mittel,Abgeschlossen,194.0,27
+T1132,2025-06-03 13:14:00,2025-06-09 17:14:00,Personal,Ben,2,Niedrig,Abgeschlossen,148.0,23
+T1133,2025-05-05 10:32:00,2025-05-11 11:32:00,Personal,Anna,2,Niedrig,Abgeschlossen,145.0,19
+T1134,2025-07-06 08:30:00,2025-07-14 12:30:00,Personal,David,5,Mittel,Abgeschlossen,196.0,27
+T1135,2025-05-25 11:46:00,,Verwaltung,Anna,5,Niedrig,Offen,,21
+T1136,2025-06-17 08:38:00,,Personal,David,3,Mittel,Offen,,25
+T1137,2025-06-20 14:42:00,2025-06-22 14:42:00,IT,Ben,4,Niedrig,Abgeschlossen,48.0,25
+T1138,2025-06-17 13:08:00,2025-06-26 15:08:00,IT,David,2,Niedrig,Abgeschlossen,218.0,25
+T1139,2025-05-15 12:15:00,2025-05-18 13:15:00,Personal,Anna,2,Mittel,Abgeschlossen,73.0,20
+T1140,2025-05-09 12:49:00,2025-05-12 13:49:00,Verwaltung,David,4,Mittel,Abgeschlossen,73.0,19
+T1141,2025-05-19 13:36:00,2025-05-28 16:36:00,IT,David,4,Hoch,Abgeschlossen,219.0,21
+T1142,2025-06-22 13:06:00,2025-06-29 17:06:00,Personal,Eva,1,Hoch,Abgeschlossen,172.0,25
+T1143,2025-06-08 10:00:00,,Verwaltung,David,4,Mittel,Offen,,23
+T1144,2025-05-19 11:31:00,,Personal,Anna,5,Niedrig,Offen,,21
+T1145,2025-06-15 08:11:00,2025-06-17 08:11:00,Verwaltung,Eva,4,Mittel,Abgeschlossen,48.0,24
+T1146,2025-05-24 12:24:00,2025-05-25 16:24:00,IT,David,2,Mittel,Abgeschlossen,28.0,21
+T1147,2025-05-22 08:53:00,,Personal,Clara,5,Hoch,Offen,,21
+T1148,2025-05-05 13:21:00,,IT,Anna,1,Niedrig,Offen,,19
+T1149,2025-05-25 12:23:00,2025-06-02 14:23:00,Personal,David,6,Niedrig,Abgeschlossen,194.0,21
+T1150,2025-06-18 08:41:00,2025-06-20 10:41:00,Verwaltung,Clara,1,Niedrig,Abgeschlossen,50.0,25
+T1151,2025-07-09 16:57:00,,Personal,Ben,6,Niedrig,Offen,,28
+T1152,2025-06-21 08:25:00,2025-06-24 10:25:00,Verwaltung,David,3,Mittel,Abgeschlossen,74.0,25
+T1153,2025-05-26 14:07:00,2025-06-01 16:07:00,IT,Eva,3,Niedrig,Abgeschlossen,146.0,22
+T1154,2025-05-17 12:58:00,2025-05-20 15:58:00,Personal,Clara,1,Mittel,Abgeschlossen,75.0,20
+T1155,2025-05-25 14:28:00,,IT,Anna,3,Hoch,Offen,,21
+T1156,2025-07-05 16:31:00,,Verwaltung,Ben,6,Hoch,Offen,,27
+T1157,2025-06-11 16:54:00,2025-06-17 18:54:00,IT,Clara,5,Niedrig,Abgeschlossen,146.0,24
+T1158,2025-06-14 12:46:00,2025-06-23 15:46:00,IT,Ben,5,Mittel,Abgeschlossen,219.0,24
+T1159,2025-06-06 16:44:00,2025-06-09 18:44:00,IT,David,6,Mittel,Abgeschlossen,74.0,23
+T1160,2025-06-27 10:41:00,2025-07-04 14:41:00,IT,Anna,5,Hoch,Abgeschlossen,172.0,26
+T1161,2025-06-10 14:27:00,2025-06-19 17:27:00,Personal,David,4,Niedrig,Abgeschlossen,219.0,24
+T1162,2025-07-06 12:47:00,,IT,Ben,3,Mittel,Offen,,27
+T1163,2025-06-04 09:11:00,2025-06-12 12:11:00,IT,Ben,3,Hoch,Abgeschlossen,195.0,23
+T1164,2025-05-12 10:54:00,2025-05-22 12:54:00,Verwaltung,David,4,Mittel,Abgeschlossen,242.0,20
+T1165,2025-05-29 10:46:00,2025-06-04 14:46:00,IT,David,2,Mittel,Abgeschlossen,148.0,22
+T1166,2025-06-20 13:52:00,2025-06-26 13:52:00,Personal,Ben,3,Niedrig,Abgeschlossen,144.0,25
+T1167,2025-06-02 14:18:00,2025-06-03 18:18:00,IT,David,5,Mittel,Abgeschlossen,28.0,23
+T1168,2025-05-30 13:52:00,,Personal,Ben,1,Mittel,Offen,,22
+T1169,2025-05-19 08:00:00,,Personal,Ben,5,Mittel,Offen,,21
+T1170,2025-07-03 11:23:00,2025-07-07 14:23:00,IT,Clara,5,Mittel,Abgeschlossen,99.0,27
+T1171,2025-06-14 14:07:00,2025-06-23 14:07:00,Personal,Ben,5,Mittel,Abgeschlossen,216.0,24
+T1172,2025-05-24 11:24:00,2025-06-02 11:24:00,IT,Clara,5,Mittel,Abgeschlossen,216.0,21
+T1173,2025-06-21 10:32:00,2025-06-24 11:32:00,IT,Anna,1,Niedrig,Abgeschlossen,73.0,25
+T1174,2025-05-06 08:13:00,2025-05-16 11:13:00,IT,Ben,4,Mittel,Abgeschlossen,243.0,19
+T1175,2025-05-02 12:04:00,2025-05-12 13:04:00,Personal,Anna,6,Hoch,Abgeschlossen,241.0,18
+T1176,2025-05-16 15:17:00,,Verwaltung,David,3,Mittel,Offen,,20
+T1177,2025-05-07 10:13:00,2025-05-09 13:13:00,Verwaltung,David,6,Niedrig,Abgeschlossen,51.0,19
+T1178,2025-05-07 16:08:00,,Personal,Anna,6,Niedrig,Offen,,19
+T1179,2025-07-07 14:44:00,,IT,Clara,1,Mittel,Offen,,28
+T1180,2025-06-06 13:25:00,,IT,Ben,2,Niedrig,Offen,,23
+T1181,2025-05-15 10:02:00,2025-05-21 12:02:00,IT,David,3,Mittel,Abgeschlossen,146.0,20
+T1182,2025-06-29 16:11:00,2025-07-09 19:11:00,Personal,Clara,4,Niedrig,Abgeschlossen,243.0,26
+T1183,2025-05-23 16:43:00,2025-05-26 18:43:00,IT,Ben,5,Niedrig,Abgeschlossen,74.0,21
+T1184,2025-07-09 11:52:00,2025-07-12 15:52:00,IT,Eva,3,Mittel,Abgeschlossen,76.0,28
+T1185,2025-05-31 13:25:00,,IT,David,4,Mittel,Offen,,22
+T1186,2025-05-12 09:12:00,2025-05-14 12:12:00,IT,Eva,5,Mittel,Abgeschlossen,51.0,20
+T1187,2025-06-07 12:37:00,,Personal,Anna,6,Hoch,Offen,,23
+T1188,2025-05-17 14:30:00,2025-05-24 14:30:00,IT,David,6,Mittel,Abgeschlossen,168.0,20
+T1189,2025-06-06 09:13:00,2025-06-07 10:13:00,IT,David,1,Mittel,Abgeschlossen,25.0,23
+T1190,2025-07-04 11:54:00,,Personal,David,3,Hoch,Offen,,27
+T1191,2025-06-27 08:02:00,,Verwaltung,Anna,3,Mittel,Offen,,26
+T1192,2025-05-30 13:57:00,2025-06-07 13:57:00,Verwaltung,Ben,6,Hoch,Abgeschlossen,192.0,22
+T1193,2025-06-02 10:53:00,2025-06-04 14:53:00,IT,Anna,1,Hoch,Abgeschlossen,52.0,23
+T1194,2025-06-03 09:06:00,,IT,David,2,Mittel,Offen,,23
+T1195,2025-05-14 12:21:00,2025-05-16 12:21:00,Personal,Anna,5,Mittel,Abgeschlossen,48.0,20
+T1196,2025-06-24 11:23:00,2025-06-25 14:23:00,Personal,Anna,4,Mittel,Abgeschlossen,27.0,26
+T1197,2025-05-13 12:20:00,2025-05-22 12:20:00,Personal,Ben,2,Niedrig,Abgeschlossen,216.0,20
+T1198,2025-05-06 16:00:00,2025-05-16 17:00:00,IT,Anna,6,Mittel,Abgeschlossen,241.0,19
+T1199,2025-07-07 11:37:00,,Personal,David,6,Niedrig,Offen,,28
