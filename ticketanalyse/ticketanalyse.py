@@ -93,6 +93,13 @@ anzahl_tickets_pro_kategorie = dfTicktetsClean.groupby("Kategorie").size()
 print("✅ Anzahl Tickets pro Kategorie:")
 print(anzahl_tickets_pro_kategorie)
 
+bearbeitungszeit_pro_Kategorie = dfTicktetsClean.groupby("Kategorie").agg({
+    'Bearbeitungszeit_h': 'sum'
+}).round(2)
+print("✅ Bearbeitungszeit pro Kategorie:")
+print(bearbeitungszeit_pro_Kategorie)
+
+
 anzahl_tickets_pro_bearbeiter = dfTicktetsClean.groupby("Bearbeiter").size()
 print("✅ Anzahl Tickets pro Bearbeiter:")
 print(anzahl_tickets_pro_bearbeiter)
