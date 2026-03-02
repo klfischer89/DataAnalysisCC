@@ -1,0 +1,18 @@
+{
+  "firma": "Muster AG",
+  "standorte": [
+    {
+      "stadt": "Berlin",
+      "mitarbeiter": [
+        { "name": "Anna", "rolle": "Entwicklung" },
+        { "name": "Ben", "rolle": "Support" }
+      ]
+    },
+    {
+      "stadt": "Köln",
+      "mitarbeiter": [
+        { "name": "Clara", "rolle": "Vertrieb" }
+      ]
+    }
+  ]
+}

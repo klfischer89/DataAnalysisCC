@@ -1,0 +1,4 @@
+[
+  { "id": 1, "name": "Alice", "aktiv": true, "werte": [3, 5, 7] },
+  { "id": 2, "name": "Bob", "aktiv": false, "werte": [2, 4] }
+]
