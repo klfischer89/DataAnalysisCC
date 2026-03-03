@@ -28,7 +28,16 @@ print("Varianz:")
 print(varRueckfragen)
 print(varDauer)
 
-steigung = kovarianz/varRueckfragen
+steigung = kovarianz/varDauer
 
 print("Steigung:")
 print(steigung)
+
+achsenabschnitt = mittelwertRueckfragen - steigung * mittelwertDauer
+
+print("Achsenabschnitt:")
+print(achsenabschnitt)
+
+print("Dauer für ein Ticket mit 6 Rückfragen")
+y = achsenabschnitt + steigung * 6
+print(y)
