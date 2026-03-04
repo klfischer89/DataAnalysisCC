@@ -200,7 +200,7 @@ y = df_clean["Dauer_gesamt"]
 # Train/Test Split
 X_train_knn, X_test_knn, y_train_knn, y_test_knn = train_test_split(X, y, train_size=0.75, random_state=42)
 
-# Modell trainieren
+# Modell trainieren 8 Nachbarn, Manhattan Distanz
 model_knn = KNeighborsClassifier(n_neighbors=8, p=1)
 model_knn.fit(X_train_knn, y_train_knn)
 
