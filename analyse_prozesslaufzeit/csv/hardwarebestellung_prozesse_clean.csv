@@ -1,0 +1,95 @@
+,Prozess_ID,Mitarbeitername,Abteilung,Anfragedatum,Startdatum,Genehmigungsdatum,Bestelldatum,Lieferdatum,Uebergabedatum,Anzahl_Rueckfragen,Status,Prioritaet,Dauer_genehmigung,Dauer_bestellung,Dauer_lieferung,Dauer_uebergabe,Dauer_gesamt
+0,PRC0001,Aleksandr Weinhage,Buchhaltung,2025-06-05,2025-06-12,2025-06-08,2025-06-09,2025-06-11,2025-06-13,2,abgeschlossen,mittel,3.0,1.0,2.0,2.0,8.0
+1,PRC0002,Dr. Christof Weihmann B.Sc.,HR,2025-06-18,2025-06-29,2025-06-21,2025-06-22,2025-06-27,2025-06-30,1,abgeschlossen,mittel,3.0,1.0,5.0,3.0,12.0
+2,PRC0003,Klemens Löffler,Marketing,2025-05-24,2025-06-02,2025-05-24,2025-05-26,2025-05-29,2025-06-05,0,abgeschlossen,niedrig,0.0,2.0,3.0,7.0,12.0
+5,PRC0006,Dr. Ingrid Schäfer,Marketing,2025-06-05,2025-06-12,2025-06-08,2025-06-09,2025-06-14,2025-06-16,2,abgeschlossen,mittel,3.0,1.0,5.0,2.0,11.0
+6,PRC0007,Raik Freudenberger,Vertrieb,2025-06-12,2025-06-24,2025-06-15,2025-06-16,2025-06-18,2025-06-20,0,abgeschlossen,hoch,3.0,1.0,2.0,2.0,8.0
+7,PRC0008,Erika Förster,Marketing,2025-06-02,2025-06-13,2025-06-04,2025-06-05,2025-06-08,2025-06-09,0,abgeschlossen,mittel,2.0,1.0,3.0,1.0,7.0
+8,PRC0009,Auguste Davids,HR,2025-06-10,2025-06-24,2025-06-12,2025-06-14,2025-06-19,2025-06-26,1,abgeschlossen,mittel,2.0,2.0,5.0,7.0,16.0
+9,PRC0010,Hans Jürgen Kaul,Buchhaltung,2025-06-21,2025-07-01,2025-06-23,2025-06-24,2025-06-26,2025-06-27,1,abgeschlossen,niedrig,2.0,1.0,2.0,1.0,6.0
+10,PRC0011,Rosalia Beyer,Marketing,2025-06-14,2025-06-24,2025-06-15,2025-06-17,2025-06-19,2025-06-27,0,abgeschlossen,hoch,1.0,2.0,2.0,8.0,13.0
+11,PRC0012,Zenon Kostolzin,Marketing,2025-05-26,2025-06-03,2025-05-27,2025-05-28,2025-06-01,2025-06-04,1,abgeschlossen,niedrig,1.0,1.0,4.0,3.0,9.0
+12,PRC0013,Sandra Schuchhardt,Forschung,2025-06-09,2025-06-20,2025-06-09,2025-06-11,2025-06-14,2025-06-17,1,abgeschlossen,mittel,0.0,2.0,3.0,3.0,8.0
+13,PRC0014,Nikolaj Bohnbach B.Sc.,IT,2025-06-03,2025-06-10,2025-06-03,2025-06-05,2025-06-09,2025-06-11,1,abgeschlossen,mittel,0.0,2.0,4.0,2.0,8.0
+14,PRC0015,Annelore Heintze,Buchhaltung,2025-05-27,2025-06-04,2025-05-29,2025-05-31,2025-06-02,2025-06-07,2,abgeschlossen,mittel,2.0,2.0,2.0,5.0,11.0
+15,PRC0016,Erika Meyer-Schweitzer,Vertrieb,2025-06-09,2025-06-19,2025-06-11,2025-06-12,2025-06-14,2025-06-17,1,abgeschlossen,niedrig,2.0,1.0,2.0,3.0,8.0
+16,PRC0017,Ing. Hans Dieter Häring,IT,2025-06-04,2025-06-15,2025-06-04,2025-06-05,2025-06-10,2025-06-16,0,abgeschlossen,niedrig,0.0,1.0,5.0,6.0,12.0
+17,PRC0018,Leif Schweitzer,Forschung,2025-05-31,2025-06-08,2025-06-03,2025-06-04,2025-06-06,2025-06-09,3,abgeschlossen,mittel,3.0,1.0,2.0,3.0,9.0
+18,PRC0019,Dr. Herwig Kramer B.Eng.,Buchhaltung,2025-06-19,2025-06-29,2025-06-20,2025-06-22,2025-06-27,2025-06-29,0,abgeschlossen,hoch,1.0,2.0,5.0,2.0,10.0
+19,PRC0020,Univ.Prof. Gotthilf Wirth B.Sc.,Forschung,2025-06-03,2025-06-11,2025-06-06,2025-06-08,2025-06-10,2025-06-13,2,abgeschlossen,niedrig,3.0,2.0,2.0,3.0,10.0
+20,PRC0021,Romuald Jopich,Forschung,2025-06-11,2025-06-23,2025-06-14,2025-06-15,2025-06-19,2025-06-21,0,abgeschlossen,mittel,3.0,1.0,4.0,2.0,10.0
+21,PRC0022,Anne-Katrin Hahn,Forschung,2025-06-19,2025-06-30,2025-06-19,2025-06-21,2025-06-24,2025-07-03,1,verzögert,niedrig,0.0,2.0,3.0,9.0,14.0
+22,PRC0023,Diana Sontag,Buchhaltung,2025-06-16,2025-06-23,2025-06-17,2025-06-19,2025-06-24,2025-06-27,1,abgeschlossen,mittel,1.0,2.0,5.0,3.0,11.0
+23,PRC0024,Svea Seidel-Mies,Marketing,2025-05-29,2025-06-05,2025-05-30,2025-05-31,2025-06-02,2025-06-08,2,abgeschlossen,niedrig,1.0,1.0,2.0,6.0,10.0
+24,PRC0025,Brita Hentschel,Forschung,2025-06-19,2025-06-27,2025-06-22,2025-06-24,2025-06-29,2025-07-01,1,abgeschlossen,mittel,3.0,2.0,5.0,2.0,12.0
+25,PRC0026,Nathalie Schaaf,Marketing,2025-06-12,2025-06-23,2025-06-15,2025-06-16,2025-06-20,2025-06-24,0,abgeschlossen,mittel,3.0,1.0,4.0,4.0,12.0
+26,PRC0027,Greta Hartmann-Etzler,HR,2025-06-16,2025-06-29,2025-06-19,2025-06-20,2025-06-23,2025-07-01,6,abgeschlossen,mittel,3.0,1.0,3.0,8.0,15.0
+27,PRC0028,Frau Notburga Biggen B.Sc.,IT,2025-05-30,2025-06-13,2025-05-30,2025-06-01,2025-06-03,2025-06-14,1,abgeschlossen,niedrig,0.0,2.0,2.0,11.0,15.0
+28,PRC0029,Univ.Prof. Heimo Scheuermann,HR,2025-05-26,2025-06-09,2025-05-28,2025-05-29,2025-06-02,2025-06-04,0,abgeschlossen,hoch,2.0,1.0,4.0,2.0,9.0
+29,PRC0030,Hanna Scheuermann-Möchlichen,Vertrieb,2025-06-17,2025-06-25,2025-06-20,2025-06-22,2025-06-25,2025-06-28,1,abgeschlossen,niedrig,3.0,2.0,3.0,3.0,11.0
+30,PRC0031,Yasmin Röhricht,IT,2025-05-23,2025-05-30,2025-05-26,2025-05-28,2025-05-30,2025-06-02,0,abgeschlossen,mittel,3.0,2.0,2.0,3.0,10.0
+31,PRC0032,Mirco Renner,HR,2025-06-04,2025-06-14,2025-06-04,2025-06-05,2025-06-09,2025-06-12,0,abgeschlossen,hoch,0.0,1.0,4.0,3.0,8.0
+32,PRC0033,Beate Hornig,Buchhaltung,2025-06-13,2025-06-27,2025-06-16,2025-06-18,2025-06-21,2025-06-23,0,abgeschlossen,mittel,3.0,2.0,3.0,2.0,10.0
+33,PRC0034,Dipl.-Ing. Abraham van der Dussen,Forschung,2025-06-04,2025-06-13,2025-06-06,2025-06-07,2025-06-10,2025-06-11,1,abgeschlossen,mittel,2.0,1.0,3.0,1.0,7.0
+34,PRC0035,Prof. Urban Döring,Buchhaltung,2025-06-06,2025-06-16,2025-06-06,2025-06-07,2025-06-12,2025-06-15,2,abgeschlossen,niedrig,0.0,1.0,5.0,3.0,9.0
+35,PRC0036,Cornelius Köster B.A.,Buchhaltung,2025-06-18,2025-06-28,2025-06-20,2025-06-22,2025-06-25,2025-07-01,2,abgeschlossen,niedrig,2.0,2.0,3.0,6.0,13.0
+36,PRC0037,Krzysztof Junitz,IT,2025-06-15,2025-06-25,2025-06-17,2025-06-18,2025-06-22,2025-06-28,0,abgeschlossen,mittel,2.0,1.0,4.0,6.0,13.0
+37,PRC0038,Bertram Klotz,Marketing,2025-06-06,2025-06-16,2025-06-08,2025-06-10,2025-06-12,2025-06-14,5,abgeschlossen,niedrig,2.0,2.0,2.0,2.0,8.0
+38,PRC0039,Herr Ernst-Otto Roskoth B.Sc.,Marketing,2025-05-27,2025-06-03,2025-05-27,2025-05-29,2025-06-02,2025-06-04,0,verzögert,hoch,0.0,2.0,4.0,2.0,8.0
+39,PRC0040,Frau Zita Wieloch B.A.,Vertrieb,2025-05-29,2025-06-09,2025-05-29,2025-05-30,2025-06-02,2025-06-03,1,abgeschlossen,hoch,0.0,1.0,3.0,1.0,5.0
+40,PRC0041,Prof. Centa Hettner MBA.,Marketing,2025-06-02,2025-06-13,2025-06-04,2025-06-05,2025-06-07,2025-06-14,1,abgeschlossen,niedrig,2.0,1.0,2.0,7.0,12.0
+41,PRC0042,Olaf Jockel MBA.,IT,2025-06-10,2025-06-23,2025-06-11,2025-06-13,2025-06-16,2025-06-18,1,abgeschlossen,mittel,1.0,2.0,3.0,2.0,8.0
+42,PRC0043,Tatiana Pohl MBA.,Buchhaltung,2025-05-28,2025-06-04,2025-05-28,2025-05-29,2025-06-01,2025-06-06,3,abgeschlossen,mittel,0.0,1.0,3.0,5.0,9.0
+43,PRC0044,Dr. Anton Kambs B.Sc.,Buchhaltung,2025-06-20,2025-06-30,2025-06-21,2025-06-23,2025-06-26,2025-06-29,0,abgeschlossen,mittel,1.0,2.0,3.0,3.0,9.0
+44,PRC0045,Prof. Emil Albers B.Sc.,Forschung,2025-05-25,2025-06-03,2025-05-25,2025-05-26,2025-05-31,2025-06-03,2,abgeschlossen,hoch,0.0,1.0,5.0,3.0,9.0
+45,PRC0046,Herr Torsten Beckmann B.Eng.,HR,2025-05-26,2025-06-05,2025-05-28,2025-05-30,2025-06-01,2025-06-02,1,abgeschlossen,niedrig,2.0,2.0,2.0,1.0,7.0
+46,PRC0047,Ing. Mesut Neuschäfer B.A.,HR,2025-06-18,2025-07-02,2025-06-19,2025-06-20,2025-06-25,2025-07-03,0,abgeschlossen,hoch,1.0,1.0,5.0,8.0,15.0
+47,PRC0048,Otfried Ruppersberger-Sager,HR,2025-06-14,2025-06-25,2025-06-16,2025-06-17,2025-06-22,2025-06-28,0,abgeschlossen,mittel,2.0,1.0,5.0,6.0,14.0
+48,PRC0049,Dipl.-Ing. Ronald Lange B.A.,Buchhaltung,2025-05-27,2025-06-09,2025-05-30,2025-06-01,2025-06-03,2025-06-05,0,abgeschlossen,niedrig,3.0,2.0,2.0,2.0,9.0
+49,PRC0050,Maurice Löwer,HR,2025-06-09,2025-06-21,2025-06-11,2025-06-12,2025-06-17,2025-06-20,0,abgeschlossen,hoch,2.0,1.0,5.0,3.0,11.0
+50,PRC0051,Dipl.-Ing. Irmtraut Wagner,Buchhaltung,2025-05-25,2025-06-02,2025-05-25,2025-05-26,2025-05-30,2025-06-01,2,abgeschlossen,niedrig,0.0,1.0,4.0,2.0,7.0
+51,PRC0052,Ante Lachmann,Buchhaltung,2025-06-08,2025-06-20,2025-06-11,2025-06-13,2025-06-17,2025-06-22,2,abgeschlossen,mittel,3.0,2.0,4.0,5.0,14.0
+52,PRC0053,Falko Gröttner,IT,2025-06-01,2025-06-14,2025-06-03,2025-06-05,2025-06-10,2025-06-13,0,abgeschlossen,niedrig,2.0,2.0,5.0,3.0,12.0
+54,PRC0055,Elfie Bruder MBA.,Marketing,2025-06-18,2025-06-25,2025-06-21,2025-06-22,2025-06-27,2025-06-30,1,abgeschlossen,niedrig,3.0,1.0,5.0,3.0,12.0
+55,PRC0056,Andrei Söding,Forschung,2025-06-18,2025-06-27,2025-06-21,2025-06-22,2025-06-25,2025-06-26,5,abgeschlossen,mittel,3.0,1.0,3.0,1.0,8.0
+56,PRC0057,Zbigniew Davids,Vertrieb,2025-06-03,2025-06-13,2025-06-05,2025-06-06,2025-06-08,2025-06-09,5,abgeschlossen,niedrig,2.0,1.0,2.0,1.0,6.0
+57,PRC0058,Dipl.-Ing. Ingbert Nette,Buchhaltung,2025-06-02,2025-06-10,2025-06-02,2025-06-04,2025-06-07,2025-06-14,0,abgeschlossen,mittel,0.0,2.0,3.0,7.0,12.0
+58,PRC0059,Teresa Bonbach-Gehringer,Buchhaltung,2025-06-10,2025-06-20,2025-06-12,2025-06-13,2025-06-15,2025-06-16,0,abgeschlossen,mittel,2.0,1.0,2.0,1.0,6.0
+59,PRC0060,Hans-Martin Hettner,IT,2025-06-14,2025-06-25,2025-06-16,2025-06-18,2025-06-21,2025-06-27,2,verzögert,niedrig,2.0,2.0,3.0,6.0,13.0
+60,PRC0061,Hildegart Thies,Forschung,2025-06-18,2025-06-30,2025-06-20,2025-06-21,2025-06-24,2025-07-01,0,abgeschlossen,mittel,2.0,1.0,3.0,7.0,13.0
+61,PRC0062,Dr. Cordula Hübel B.A.,Forschung,2025-05-25,2025-06-06,2025-05-27,2025-05-29,2025-06-01,2025-06-07,1,abgeschlossen,mittel,2.0,2.0,3.0,6.0,13.0
+62,PRC0063,Peter-Michael Johann,Forschung,2025-05-25,2025-06-03,2025-05-25,2025-05-26,2025-05-29,2025-05-31,0,abgeschlossen,mittel,0.0,1.0,3.0,2.0,6.0
+63,PRC0064,Klaus-Günter Naser,Marketing,2025-06-16,2025-06-24,2025-06-19,2025-06-21,2025-06-26,2025-06-28,0,abgeschlossen,mittel,3.0,2.0,5.0,2.0,12.0
+64,PRC0065,Herr Wolf-Dietrich Pergande,Vertrieb,2025-05-26,2025-06-04,2025-05-28,2025-05-29,2025-06-03,2025-06-06,2,abgeschlossen,mittel,2.0,1.0,5.0,3.0,11.0
+65,PRC0066,Herr Konstantinos Börner,HR,2025-06-03,2025-06-17,2025-06-03,2025-06-05,2025-06-10,2025-06-11,2,abgeschlossen,mittel,0.0,2.0,5.0,1.0,8.0
+66,PRC0067,Berta Rudolph-Hentschel,Buchhaltung,2025-06-20,2025-07-03,2025-06-22,2025-06-24,2025-06-26,2025-06-29,2,abgeschlossen,mittel,2.0,2.0,2.0,3.0,9.0
+68,PRC0069,Valeria Heß,Forschung,2025-06-01,2025-06-09,2025-06-02,2025-06-04,2025-06-08,2025-06-12,1,abgeschlossen,niedrig,1.0,2.0,4.0,4.0,11.0
+69,PRC0070,Edith Hettner,Marketing,2025-06-11,2025-06-24,2025-06-14,2025-06-15,2025-06-20,2025-06-23,0,abgeschlossen,niedrig,3.0,1.0,5.0,3.0,12.0
+70,PRC0071,Micha Seifert-Jacob,Vertrieb,2025-06-14,2025-06-25,2025-06-14,2025-06-16,2025-06-18,2025-06-21,2,abgeschlossen,mittel,0.0,2.0,2.0,3.0,7.0
+71,PRC0072,Uschi Wende,Marketing,2025-05-26,2025-06-04,2025-05-29,2025-05-31,2025-06-04,2025-06-07,0,abgeschlossen,mittel,3.0,2.0,4.0,3.0,12.0
+72,PRC0073,Hermann Scholz,Buchhaltung,2025-06-19,2025-07-03,2025-06-19,2025-06-20,2025-06-23,2025-06-25,1,abgeschlossen,mittel,0.0,1.0,3.0,2.0,6.0
+73,PRC0074,Arndt Reuter,HR,2025-06-02,2025-06-11,2025-06-02,2025-06-03,2025-06-07,2025-06-09,0,abgeschlossen,niedrig,0.0,1.0,4.0,2.0,7.0
+74,PRC0075,Birthe Keudel,HR,2025-05-26,2025-06-06,2025-05-28,2025-05-30,2025-06-04,2025-06-06,2,abgeschlossen,mittel,2.0,2.0,5.0,2.0,11.0
+75,PRC0076,Ing. Friedhelm Franke MBA.,Forschung,2025-06-18,2025-07-02,2025-06-21,2025-06-22,2025-06-27,2025-06-30,2,abgeschlossen,mittel,3.0,1.0,5.0,3.0,12.0
+76,PRC0077,Lore Sölzer,Marketing,2025-06-17,2025-06-30,2025-06-19,2025-06-20,2025-06-22,2025-06-25,1,abgeschlossen,niedrig,2.0,1.0,2.0,3.0,8.0
+77,PRC0078,Meinolf Röhricht,Buchhaltung,2025-06-06,2025-06-18,2025-06-08,2025-06-09,2025-06-12,2025-06-21,2,abgeschlossen,mittel,2.0,1.0,3.0,9.0,15.0
+78,PRC0079,Walter Eimer,IT,2025-06-04,2025-06-18,2025-06-04,2025-06-06,2025-06-11,2025-06-21,1,abgeschlossen,niedrig,0.0,2.0,5.0,10.0,17.0
+79,PRC0080,Tilman Döring,Buchhaltung,2025-06-18,2025-06-27,2025-06-20,2025-06-22,2025-06-26,2025-06-28,2,abgeschlossen,niedrig,2.0,2.0,4.0,2.0,10.0
+80,PRC0081,Franz-Peter Holzapfel-auch Schlauchin,Vertrieb,2025-06-02,2025-06-11,2025-06-05,2025-06-06,2025-06-11,2025-06-13,0,abgeschlossen,niedrig,3.0,1.0,5.0,2.0,11.0
+81,PRC0082,Danica Stumpf,Buchhaltung,2025-06-04,2025-06-17,2025-06-04,2025-06-05,2025-06-09,2025-06-12,0,abgeschlossen,mittel,0.0,1.0,4.0,3.0,8.0
+82,PRC0083,Ing. Thekla Birnbaum B.Sc.,Buchhaltung,2025-06-12,2025-06-23,2025-06-15,2025-06-16,2025-06-20,2025-06-23,2,abgeschlossen,mittel,3.0,1.0,4.0,3.0,11.0
+84,PRC0085,Marcel Hesse-Fritsch,Marketing,2025-06-13,2025-06-22,2025-06-13,2025-06-14,2025-06-17,2025-06-24,1,abgeschlossen,mittel,0.0,1.0,3.0,7.0,11.0
+85,PRC0086,Prof. Aenne Dowerg,Forschung,2025-05-26,2025-06-02,2025-05-26,2025-05-28,2025-06-02,2025-06-03,0,abgeschlossen,hoch,0.0,2.0,5.0,1.0,8.0
+86,PRC0087,Jörn Beier-Koch II,Buchhaltung,2025-06-20,2025-06-29,2025-06-21,2025-06-23,2025-06-28,2025-06-29,1,abgeschlossen,mittel,1.0,2.0,5.0,1.0,9.0
+87,PRC0088,Heinz-Dieter Eckbauer-Berger,Vertrieb,2025-06-06,2025-06-14,2025-06-06,2025-06-08,2025-06-10,2025-06-16,0,abgeschlossen,hoch,0.0,2.0,2.0,6.0,10.0
+89,PRC0090,Mirco Hering B.Sc.,HR,2025-06-09,2025-06-22,2025-06-11,2025-06-13,2025-06-17,2025-06-25,2,abgeschlossen,mittel,2.0,2.0,4.0,8.0,16.0
+90,PRC0091,Prof. Nermin Förster,Marketing,2025-06-03,2025-06-16,2025-06-05,2025-06-06,2025-06-09,2025-06-17,1,offen,mittel,2.0,1.0,3.0,8.0,14.0
+91,PRC0092,Dr. Thies Liebelt,Buchhaltung,2025-05-24,2025-06-05,2025-05-25,2025-05-26,2025-05-29,2025-05-31,0,abgeschlossen,mittel,1.0,1.0,3.0,2.0,7.0
+92,PRC0093,Univ.Prof. Vincent Kade,IT,2025-06-11,2025-06-20,2025-06-13,2025-06-15,2025-06-17,2025-06-19,3,abgeschlossen,mittel,2.0,2.0,2.0,2.0,8.0
+93,PRC0094,Ing. Daniel Zorbach B.Sc.,Forschung,2025-06-10,2025-06-17,2025-06-12,2025-06-14,2025-06-16,2025-06-21,1,abgeschlossen,mittel,2.0,2.0,2.0,5.0,11.0
+94,PRC0095,Stefan Mude,HR,2025-06-02,2025-06-09,2025-06-02,2025-06-04,2025-06-07,2025-06-08,4,abgeschlossen,mittel,0.0,2.0,3.0,1.0,6.0
+95,PRC0096,Rüdiger Misicher B.Eng.,Buchhaltung,2025-06-06,2025-06-15,2025-06-06,2025-06-08,2025-06-13,2025-06-16,0,abgeschlossen,mittel,0.0,2.0,5.0,3.0,10.0
+96,PRC0097,Dr. Aleksander Speer B.A.,Buchhaltung,2025-06-11,2025-06-20,2025-06-13,2025-06-15,2025-06-19,2025-06-21,2,abgeschlossen,mittel,2.0,2.0,4.0,2.0,10.0
+97,PRC0098,Erna Bohnbach,Marketing,2025-06-05,2025-06-13,2025-06-05,2025-06-07,2025-06-09,2025-06-14,0,abgeschlossen,mittel,0.0,2.0,2.0,5.0,9.0
+98,PRC0099,Manuela Pergande,IT,2025-06-11,2025-06-20,2025-06-14,2025-06-16,2025-06-18,2025-06-22,1,abgeschlossen,mittel,3.0,2.0,2.0,4.0,11.0
+99,PRC0100,Vera Baum,IT,2025-05-28,2025-06-11,2025-05-30,2025-06-01,2025-06-03,2025-06-14,0,abgeschlossen,niedrig,2.0,2.0,2.0,11.0,17.0
