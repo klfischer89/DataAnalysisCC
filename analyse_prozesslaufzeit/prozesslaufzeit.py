@@ -94,3 +94,11 @@ plt.title('Train/Test Verteilung')
 
 plt.tight_layout()
 plt.show()
+
+# Daten für Pairplot vorbereiten
+plot_data = X.copy()
+plot_data['Dauer_gesamt'] = y
+
+sns.pairplot(plot_data, diag_kind='kde', corner=True)
+plt.suptitle('Pairplot: Alle Features + Target', y=1.02)
+plt.show()
