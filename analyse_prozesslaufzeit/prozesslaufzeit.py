@@ -32,11 +32,22 @@ df["Dauer_lieferung"] = df["Dauer_lieferung"].dt.total_seconds() / (24 * 3600)
 df["Dauer_uebergabe"] = df["Dauer_uebergabe"].dt.total_seconds() / (24 * 3600)
 df["Dauer_gesamt"] =  df["Dauer_gesamt"].dt.total_seconds() / (24 * 3600)
 
+# One-Hot Encoding nur für diese 2 Spalten
+one_hot_abt = pd.get_dummies(df['Abteilung'], prefix='Abt', dtype=int)
+one_hot_prio = pd.get_dummies(df['Prioritaet'], prefix='Prio', dtype=int)
+
+# NEUE Spalten zum Original-DataFrame hinzufügen
+df = pd.concat([df, one_hot_abt, one_hot_prio], axis=1)
+
 # NaN Werte entfernen
 df_clean = df.dropna()
 
+X_cols = ["Dauer_genehmigung", "Dauer_bestellung", "Dauer_lieferung", "Dauer_uebergabe"] + \
+         [col for col in df.columns if 'Abt_' in col or 'Prio_' in col]
+
 # Daten in Train und Test aufteilen
-X = df_clean[["Dauer_genehmigung", "Dauer_bestellung", "Dauer_lieferung", "Dauer_uebergabe"]]
+# X = df_clean[["Dauer_genehmigung", "Dauer_bestellung", "Dauer_lieferung", "Dauer_uebergabe"]]
+X = df_clean[X_cols]
 y = df_clean["Dauer_gesamt"]
 
 # neuen Dateframe als csv speichern
@@ -98,8 +109,16 @@ plt.title('Train/Test Verteilung')
 plt.tight_layout()
 plt.show()
 
-# Daten für Pairplot vorbereiten
-plot_data = X.copy()
+# Daten für Dauer für Pairplot vorbereiten
+plot_data = X[["Dauer_genehmigung", "Dauer_bestellung", "Dauer_lieferung", "Dauer_uebergabe"]]
+plot_data['Dauer_gesamt'] = y
+
+sns.pairplot(plot_data, diag_kind='kde', corner=True)
+plt.suptitle('Pairplot: Alle Features + Target', y=1.02)
+plt.show()
+
+# Daten für Abteilungen und Prioritaeten für Pairplot vorbereiten
+plot_data = X[[col for col in df.columns if 'Abt_' in col or 'Prio_' in col]]
 plot_data['Dauer_gesamt'] = y
 
 sns.pairplot(plot_data, diag_kind='kde', corner=True)
