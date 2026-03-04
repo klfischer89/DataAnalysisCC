@@ -44,3 +44,7 @@ Die Abteilungen IT, HR und Marketing sind am langsamsten. Wobei die Abteilung IT
 Die Abteilungen Vertrieb, Buchhaltung und Forschung arbeiten schneller. Die Abteilung Vertrieb ist die schnellste. 
 
 Für die Abteilungen und die Priorität sieht man in den Scatterplots keinen linearen Zusammenhang.
+
+## Optimierung
+
+Der Prozess zur Übergabe muss optimiert werden um die Gesamtdauer zu reduzieren.
