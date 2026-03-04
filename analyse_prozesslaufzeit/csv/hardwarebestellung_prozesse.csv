@@ -1,0 +1,101 @@
+Prozess_ID,Mitarbeitername,Abteilung,Anfragedatum,Startdatum,Genehmigungsdatum,Bestelldatum,Lieferdatum,Uebergabedatum,Anzahl_Rueckfragen,Status,Prioritaet
+PRC0001,Aleksandr Weinhage,Buchhaltung,2025-06-05,2025-06-12,2025-06-08,2025-06-09,2025-06-11,2025-06-13,2,abgeschlossen,mittel
+PRC0002,Dr. Christof Weihmann B.Sc.,HR,2025-06-18,2025-06-29,2025-06-21,2025-06-22,2025-06-27,2025-06-30,1,abgeschlossen,mittel
+PRC0003,Klemens Löffler,Marketing,2025-05-24,2025-06-02,2025-05-24,2025-05-26,2025-05-29,2025-06-05,0,abgeschlossen,niedrig
+PRC0004,Bayram Harloff,Vertrieb,2025-06-03,2025-06-13,2025-06-05,2025-06-06,2025-06-09,,0,offen,hoch
+PRC0005,Karl-Jürgen Gumprich,Vertrieb,2025-06-18,2025-06-29,2025-06-21,2025-06-23,2025-06-27,,2,offen,hoch
+PRC0006,Dr. Ingrid Schäfer,Marketing,2025-06-05,2025-06-12,2025-06-08,2025-06-09,2025-06-14,2025-06-16,2,abgeschlossen,mittel
+PRC0007,Raik Freudenberger,Vertrieb,2025-06-12,2025-06-24,2025-06-15,2025-06-16,2025-06-18,2025-06-20,0,abgeschlossen,hoch
+PRC0008,Erika Förster,Marketing,2025-06-02,2025-06-13,2025-06-04,2025-06-05,2025-06-08,2025-06-09,0,abgeschlossen,mittel
+PRC0009,Auguste Davids,HR,2025-06-10,2025-06-24,2025-06-12,2025-06-14,2025-06-19,2025-06-26,1,abgeschlossen,mittel
+PRC0010,Hans Jürgen Kaul,Buchhaltung,2025-06-21,2025-07-01,2025-06-23,2025-06-24,2025-06-26,2025-06-27,1,abgeschlossen,niedrig
+PRC0011,Rosalia Beyer,Marketing,2025-06-14,2025-06-24,2025-06-15,2025-06-17,2025-06-19,2025-06-27,0,abgeschlossen,hoch
+PRC0012,Zenon Kostolzin,Marketing,2025-05-26,2025-06-03,2025-05-27,2025-05-28,2025-06-01,2025-06-04,1,abgeschlossen,niedrig
+PRC0013,Sandra Schuchhardt,Forschung,2025-06-09,2025-06-20,2025-06-09,2025-06-11,2025-06-14,2025-06-17,1,abgeschlossen,mittel
+PRC0014,Nikolaj Bohnbach B.Sc.,IT,2025-06-03,2025-06-10,2025-06-03,2025-06-05,2025-06-09,2025-06-11,1,abgeschlossen,mittel
+PRC0015,Annelore Heintze,Buchhaltung,2025-05-27,2025-06-04,2025-05-29,2025-05-31,2025-06-02,2025-06-07,2,abgeschlossen,mittel
+PRC0016,Erika Meyer-Schweitzer,Vertrieb,2025-06-09,2025-06-19,2025-06-11,2025-06-12,2025-06-14,2025-06-17,1,abgeschlossen,niedrig
+PRC0017,Ing. Hans Dieter Häring,IT,2025-06-04,2025-06-15,2025-06-04,2025-06-05,2025-06-10,2025-06-16,0,abgeschlossen,niedrig
+PRC0018,Leif Schweitzer,Forschung,2025-05-31,2025-06-08,2025-06-03,2025-06-04,2025-06-06,2025-06-09,3,abgeschlossen,mittel
+PRC0019,Dr. Herwig Kramer B.Eng.,Buchhaltung,2025-06-19,2025-06-29,2025-06-20,2025-06-22,2025-06-27,2025-06-29,0,abgeschlossen,hoch
+PRC0020,Univ.Prof. Gotthilf Wirth B.Sc.,Forschung,2025-06-03,2025-06-11,2025-06-06,2025-06-08,2025-06-10,2025-06-13,2,abgeschlossen,niedrig
+PRC0021,Romuald Jopich,Forschung,2025-06-11,2025-06-23,2025-06-14,2025-06-15,2025-06-19,2025-06-21,0,abgeschlossen,mittel
+PRC0022,Anne-Katrin Hahn,Forschung,2025-06-19,2025-06-30,2025-06-19,2025-06-21,2025-06-24,2025-07-03,1,verzögert,niedrig
+PRC0023,Diana Sontag,Buchhaltung,2025-06-16,2025-06-23,2025-06-17,2025-06-19,2025-06-24,2025-06-27,1,abgeschlossen,mittel
+PRC0024,Svea Seidel-Mies,Marketing,2025-05-29,2025-06-05,2025-05-30,2025-05-31,2025-06-02,2025-06-08,2,abgeschlossen,niedrig
+PRC0025,Brita Hentschel,Forschung,2025-06-19,2025-06-27,2025-06-22,2025-06-24,2025-06-29,2025-07-01,1,abgeschlossen,mittel
+PRC0026,Nathalie Schaaf,Marketing,2025-06-12,2025-06-23,2025-06-15,2025-06-16,2025-06-20,2025-06-24,0,abgeschlossen,mittel
+PRC0027,Greta Hartmann-Etzler,HR,2025-06-16,2025-06-29,2025-06-19,2025-06-20,2025-06-23,2025-07-01,6,abgeschlossen,mittel
+PRC0028,Frau Notburga Biggen B.Sc.,IT,2025-05-30,2025-06-13,2025-05-30,2025-06-01,2025-06-03,2025-06-14,1,abgeschlossen,niedrig
+PRC0029,Univ.Prof. Heimo Scheuermann,HR,2025-05-26,2025-06-09,2025-05-28,2025-05-29,2025-06-02,2025-06-04,0,abgeschlossen,hoch
+PRC0030,Hanna Scheuermann-Möchlichen,Vertrieb,2025-06-17,2025-06-25,2025-06-20,2025-06-22,2025-06-25,2025-06-28,1,abgeschlossen,niedrig
+PRC0031,Yasmin Röhricht,IT,2025-05-23,2025-05-30,2025-05-26,2025-05-28,2025-05-30,2025-06-02,0,abgeschlossen,mittel
+PRC0032,Mirco Renner,HR,2025-06-04,2025-06-14,2025-06-04,2025-06-05,2025-06-09,2025-06-12,0,abgeschlossen,hoch
+PRC0033,Beate Hornig,Buchhaltung,2025-06-13,2025-06-27,2025-06-16,2025-06-18,2025-06-21,2025-06-23,0,abgeschlossen,mittel
+PRC0034,Dipl.-Ing. Abraham van der Dussen,Forschung,2025-06-04,2025-06-13,2025-06-06,2025-06-07,2025-06-10,2025-06-11,1,abgeschlossen,mittel
+PRC0035,Prof. Urban Döring,Buchhaltung,2025-06-06,2025-06-16,2025-06-06,2025-06-07,2025-06-12,2025-06-15,2,abgeschlossen,niedrig
+PRC0036,Cornelius Köster B.A.,Buchhaltung,2025-06-18,2025-06-28,2025-06-20,2025-06-22,2025-06-25,2025-07-01,2,abgeschlossen,niedrig
+PRC0037,Krzysztof Junitz,IT,2025-06-15,2025-06-25,2025-06-17,2025-06-18,2025-06-22,2025-06-28,0,abgeschlossen,mittel
+PRC0038,Bertram Klotz,Marketing,2025-06-06,2025-06-16,2025-06-08,2025-06-10,2025-06-12,2025-06-14,5,abgeschlossen,niedrig
+PRC0039,Herr Ernst-Otto Roskoth B.Sc.,Marketing,2025-05-27,2025-06-03,2025-05-27,2025-05-29,2025-06-02,2025-06-04,0,verzögert,hoch
+PRC0040,Frau Zita Wieloch B.A.,Vertrieb,2025-05-29,2025-06-09,2025-05-29,2025-05-30,2025-06-02,2025-06-03,1,abgeschlossen,hoch
+PRC0041,Prof. Centa Hettner MBA.,Marketing,2025-06-02,2025-06-13,2025-06-04,2025-06-05,2025-06-07,2025-06-14,1,abgeschlossen,niedrig
+PRC0042,Olaf Jockel MBA.,IT,2025-06-10,2025-06-23,2025-06-11,2025-06-13,2025-06-16,2025-06-18,1,abgeschlossen,mittel
+PRC0043,Tatiana Pohl MBA.,Buchhaltung,2025-05-28,2025-06-04,2025-05-28,2025-05-29,2025-06-01,2025-06-06,3,abgeschlossen,mittel
+PRC0044,Dr. Anton Kambs B.Sc.,Buchhaltung,2025-06-20,2025-06-30,2025-06-21,2025-06-23,2025-06-26,2025-06-29,0,abgeschlossen,mittel
+PRC0045,Prof. Emil Albers B.Sc.,Forschung,2025-05-25,2025-06-03,2025-05-25,2025-05-26,2025-05-31,2025-06-03,2,abgeschlossen,hoch
+PRC0046,Herr Torsten Beckmann B.Eng.,HR,2025-05-26,2025-06-05,2025-05-28,2025-05-30,2025-06-01,2025-06-02,1,abgeschlossen,niedrig
+PRC0047,Ing. Mesut Neuschäfer B.A.,HR,2025-06-18,2025-07-02,2025-06-19,2025-06-20,2025-06-25,2025-07-03,0,abgeschlossen,hoch
+PRC0048,Otfried Ruppersberger-Sager,HR,2025-06-14,2025-06-25,2025-06-16,2025-06-17,2025-06-22,2025-06-28,0,abgeschlossen,mittel
+PRC0049,Dipl.-Ing. Ronald Lange B.A.,Buchhaltung,2025-05-27,2025-06-09,2025-05-30,2025-06-01,2025-06-03,2025-06-05,0,abgeschlossen,niedrig
+PRC0050,Maurice Löwer,HR,2025-06-09,2025-06-21,2025-06-11,2025-06-12,2025-06-17,2025-06-20,0,abgeschlossen,hoch
+PRC0051,Dipl.-Ing. Irmtraut Wagner,Buchhaltung,2025-05-25,2025-06-02,2025-05-25,2025-05-26,2025-05-30,2025-06-01,2,abgeschlossen,niedrig
+PRC0052,Ante Lachmann,Buchhaltung,2025-06-08,2025-06-20,2025-06-11,2025-06-13,2025-06-17,2025-06-22,2,abgeschlossen,mittel
+PRC0053,Falko Gröttner,IT,2025-06-01,2025-06-14,2025-06-03,2025-06-05,2025-06-10,2025-06-13,0,abgeschlossen,niedrig
+PRC0054,Britt Löffler B.A.,Forschung,2025-06-05,2025-06-14,2025-06-06,2025-06-07,2025-06-09,,0,offen,mittel
+PRC0055,Elfie Bruder MBA.,Marketing,2025-06-18,2025-06-25,2025-06-21,2025-06-22,2025-06-27,2025-06-30,1,abgeschlossen,niedrig
+PRC0056,Andrei Söding,Forschung,2025-06-18,2025-06-27,2025-06-21,2025-06-22,2025-06-25,2025-06-26,5,abgeschlossen,mittel
+PRC0057,Zbigniew Davids,Vertrieb,2025-06-03,2025-06-13,2025-06-05,2025-06-06,2025-06-08,2025-06-09,5,abgeschlossen,niedrig
+PRC0058,Dipl.-Ing. Ingbert Nette,Buchhaltung,2025-06-02,2025-06-10,2025-06-02,2025-06-04,2025-06-07,2025-06-14,0,abgeschlossen,mittel
+PRC0059,Teresa Bonbach-Gehringer,Buchhaltung,2025-06-10,2025-06-20,2025-06-12,2025-06-13,2025-06-15,2025-06-16,0,abgeschlossen,mittel
+PRC0060,Hans-Martin Hettner,IT,2025-06-14,2025-06-25,2025-06-16,2025-06-18,2025-06-21,2025-06-27,2,verzögert,niedrig
+PRC0061,Hildegart Thies,Forschung,2025-06-18,2025-06-30,2025-06-20,2025-06-21,2025-06-24,2025-07-01,0,abgeschlossen,mittel
+PRC0062,Dr. Cordula Hübel B.A.,Forschung,2025-05-25,2025-06-06,2025-05-27,2025-05-29,2025-06-01,2025-06-07,1,abgeschlossen,mittel
+PRC0063,Peter-Michael Johann,Forschung,2025-05-25,2025-06-03,2025-05-25,2025-05-26,2025-05-29,2025-05-31,0,abgeschlossen,mittel
+PRC0064,Klaus-Günter Naser,Marketing,2025-06-16,2025-06-24,2025-06-19,2025-06-21,2025-06-26,2025-06-28,0,abgeschlossen,mittel
+PRC0065,Herr Wolf-Dietrich Pergande,Vertrieb,2025-05-26,2025-06-04,2025-05-28,2025-05-29,2025-06-03,2025-06-06,2,abgeschlossen,mittel
+PRC0066,Herr Konstantinos Börner,HR,2025-06-03,2025-06-17,2025-06-03,2025-06-05,2025-06-10,2025-06-11,2,abgeschlossen,mittel
+PRC0067,Berta Rudolph-Hentschel,Buchhaltung,2025-06-20,2025-07-03,2025-06-22,2025-06-24,2025-06-26,2025-06-29,2,abgeschlossen,mittel
+PRC0068,Lorenzo Butte,Vertrieb,2025-06-12,2025-06-24,2025-06-12,2025-06-13,2025-06-15,,1,verzögert,niedrig
+PRC0069,Valeria Heß,Forschung,2025-06-01,2025-06-09,2025-06-02,2025-06-04,2025-06-08,2025-06-12,1,abgeschlossen,niedrig
+PRC0070,Edith Hettner,Marketing,2025-06-11,2025-06-24,2025-06-14,2025-06-15,2025-06-20,2025-06-23,0,abgeschlossen,niedrig
+PRC0071,Micha Seifert-Jacob,Vertrieb,2025-06-14,2025-06-25,2025-06-14,2025-06-16,2025-06-18,2025-06-21,2,abgeschlossen,mittel
+PRC0072,Uschi Wende,Marketing,2025-05-26,2025-06-04,2025-05-29,2025-05-31,2025-06-04,2025-06-07,0,abgeschlossen,mittel
+PRC0073,Hermann Scholz,Buchhaltung,2025-06-19,2025-07-03,2025-06-19,2025-06-20,2025-06-23,2025-06-25,1,abgeschlossen,mittel
+PRC0074,Arndt Reuter,HR,2025-06-02,2025-06-11,2025-06-02,2025-06-03,2025-06-07,2025-06-09,0,abgeschlossen,niedrig
+PRC0075,Birthe Keudel,HR,2025-05-26,2025-06-06,2025-05-28,2025-05-30,2025-06-04,2025-06-06,2,abgeschlossen,mittel
+PRC0076,Ing. Friedhelm Franke MBA.,Forschung,2025-06-18,2025-07-02,2025-06-21,2025-06-22,2025-06-27,2025-06-30,2,abgeschlossen,mittel
+PRC0077,Lore Sölzer,Marketing,2025-06-17,2025-06-30,2025-06-19,2025-06-20,2025-06-22,2025-06-25,1,abgeschlossen,niedrig
+PRC0078,Meinolf Röhricht,Buchhaltung,2025-06-06,2025-06-18,2025-06-08,2025-06-09,2025-06-12,2025-06-21,2,abgeschlossen,mittel
+PRC0079,Walter Eimer,IT,2025-06-04,2025-06-18,2025-06-04,2025-06-06,2025-06-11,2025-06-21,1,abgeschlossen,niedrig
+PRC0080,Tilman Döring,Buchhaltung,2025-06-18,2025-06-27,2025-06-20,2025-06-22,2025-06-26,2025-06-28,2,abgeschlossen,niedrig
+PRC0081,Franz-Peter Holzapfel-auch Schlauchin,Vertrieb,2025-06-02,2025-06-11,2025-06-05,2025-06-06,2025-06-11,2025-06-13,0,abgeschlossen,niedrig
+PRC0082,Danica Stumpf,Buchhaltung,2025-06-04,2025-06-17,2025-06-04,2025-06-05,2025-06-09,2025-06-12,0,abgeschlossen,mittel
+PRC0083,Ing. Thekla Birnbaum B.Sc.,Buchhaltung,2025-06-12,2025-06-23,2025-06-15,2025-06-16,2025-06-20,2025-06-23,2,abgeschlossen,mittel
+PRC0084,Angela Adler,Marketing,2025-06-08,2025-06-21,2025-06-09,2025-06-10,2025-06-13,,1,offen,mittel
+PRC0085,Marcel Hesse-Fritsch,Marketing,2025-06-13,2025-06-22,2025-06-13,2025-06-14,2025-06-17,2025-06-24,1,abgeschlossen,mittel
+PRC0086,Prof. Aenne Dowerg,Forschung,2025-05-26,2025-06-02,2025-05-26,2025-05-28,2025-06-02,2025-06-03,0,abgeschlossen,hoch
+PRC0087,Jörn Beier-Koch II,Buchhaltung,2025-06-20,2025-06-29,2025-06-21,2025-06-23,2025-06-28,2025-06-29,1,abgeschlossen,mittel
+PRC0088,Heinz-Dieter Eckbauer-Berger,Vertrieb,2025-06-06,2025-06-14,2025-06-06,2025-06-08,2025-06-10,2025-06-16,0,abgeschlossen,hoch
+PRC0089,Tanja Benthin,IT,2025-06-09,2025-06-17,2025-06-09,2025-06-11,2025-06-15,,2,verzögert,mittel
+PRC0090,Mirco Hering B.Sc.,HR,2025-06-09,2025-06-22,2025-06-11,2025-06-13,2025-06-17,2025-06-25,2,abgeschlossen,mittel
+PRC0091,Prof. Nermin Förster,Marketing,2025-06-03,2025-06-16,2025-06-05,2025-06-06,2025-06-09,2025-06-17,1,offen,mittel
+PRC0092,Dr. Thies Liebelt,Buchhaltung,2025-05-24,2025-06-05,2025-05-25,2025-05-26,2025-05-29,2025-05-31,0,abgeschlossen,mittel
+PRC0093,Univ.Prof. Vincent Kade,IT,2025-06-11,2025-06-20,2025-06-13,2025-06-15,2025-06-17,2025-06-19,3,abgeschlossen,mittel
+PRC0094,Ing. Daniel Zorbach B.Sc.,Forschung,2025-06-10,2025-06-17,2025-06-12,2025-06-14,2025-06-16,2025-06-21,1,abgeschlossen,mittel
+PRC0095,Stefan Mude,HR,2025-06-02,2025-06-09,2025-06-02,2025-06-04,2025-06-07,2025-06-08,4,abgeschlossen,mittel
+PRC0096,Rüdiger Misicher B.Eng.,Buchhaltung,2025-06-06,2025-06-15,2025-06-06,2025-06-08,2025-06-13,2025-06-16,0,abgeschlossen,mittel
+PRC0097,Dr. Aleksander Speer B.A.,Buchhaltung,2025-06-11,2025-06-20,2025-06-13,2025-06-15,2025-06-19,2025-06-21,2,abgeschlossen,mittel
+PRC0098,Erna Bohnbach,Marketing,2025-06-05,2025-06-13,2025-06-05,2025-06-07,2025-06-09,2025-06-14,0,abgeschlossen,mittel
+PRC0099,Manuela Pergande,IT,2025-06-11,2025-06-20,2025-06-14,2025-06-16,2025-06-18,2025-06-22,1,abgeschlossen,mittel
+PRC0100,Vera Baum,IT,2025-05-28,2025-06-11,2025-05-30,2025-06-01,2025-06-03,2025-06-14,0,abgeschlossen,niedrig
