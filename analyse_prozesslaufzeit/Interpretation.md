@@ -2,8 +2,8 @@
 
 ## Welche Teilprozesse haben den größten Einfluss auf die Gesamtdauer?
 - Korrelation Übergabedauer zu Gesamtdauer : 0.82 -> starker linearer Zusammenhang
-- Korrelation Lieferdauer zu Gesamtdauer : 0.27 -> scwacher linearer Zusammenhang
-- Korrelation Genehmigungsdauer zu Gesamtdauer : 0.25 -> scwacher linearer Zusammenhang
+- Korrelation Lieferdauer zu Gesamtdauer : 0.27 -> schwacher linearer Zusammenhang
+- Korrelation Genehmigungsdauer zu Gesamtdauer : 0.25 -> schwacher linearer Zusammenhang
 
 
 Die Übergabedauer hat den größten Einfluss auf die Gesamtdauer. Wenn die Übergabedauer steigt dann steigt auch die Gesamtdauer.
@@ -12,8 +12,8 @@ Die Liefer- und Genehmigungsdauer haben ebenfalls mit den größten Einfluss, au
 In den Scatterplots sieht man ausschließlich bei der Übergabedauer einen klaren linearen Zusammenhang zur Gesamtdauer.
 
 ## Gibt es Prozessschritte, deren Dauer kaum Einfluss auf die Gesamtdauer hat?
-- Korrelation Bestelldauer zu Gesamtdauer : 0.19 -> scwacher linearer Zusammenhang
-- Korrelation Anzahl Rückfragen zu Gesamtdauer : -0.08 -> scwacher linearer Zusammenhang
+- Korrelation Bestelldauer zu Gesamtdauer : 0.19 -> schwacher linearer Zusammenhang
+- Korrelation Anzahl Rückfragen zu Gesamtdauer : -0.08 -> schwacher linearer Zusammenhang
 
 
 Mit steigender Bestelldauer steigt die Gesamtdauer schwach an.
