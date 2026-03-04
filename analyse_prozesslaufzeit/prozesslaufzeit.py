@@ -124,3 +124,26 @@ plot_data['Dauer_gesamt'] = y
 sns.pairplot(plot_data, diag_kind='kde', corner=True)
 plt.suptitle('Pairplot: Alle Features + Target', y=1.02)
 plt.show()
+
+# Standardabweichungen für die Regressionsformel berechnen
+dauer_genehmigung_std = df_clean["Dauer_genehmigung"].std()
+dauer_bestellung_std = df_clean["Dauer_bestellung"].std()
+dauer_lieferung_std = df_clean["Dauer_lieferung"].std()
+dauer_uebergabe_std = df_clean["Dauer_uebergabe"].std()
+dauer_gesamt_std = df_clean["Dauer_gesamt"].std()
+
+
+# Korrelationen berechenen für die Regressionsformel
+korrelation_genehmigung = df_clean['Dauer_genehmigung'].corr(df_clean['Dauer_gesamt'])
+korrelation_bestellung = df_clean['Dauer_bestellung'].corr(df_clean['Dauer_gesamt'])
+korrelation_lieferung = df_clean['Dauer_lieferung'].corr(df_clean['Dauer_gesamt'])
+korrelation_uebergabe = df_clean['Dauer_uebergabe'].corr(df_clean['Dauer_gesamt'])
+
+# Berchnung der Steigungen
+steigung_genehmigung = korrelation_genehmigung * dauer_gesamt_std/dauer_genehmigung_std
+steigung_bestellung = korrelation_bestellung * dauer_gesamt_std/dauer_bestellung_std
+steigung_lieferung = korrelation_lieferung * dauer_gesamt_std/dauer_lieferung_std
+steigung_uebergabe = korrelation_uebergabe * dauer_gesamt_std/dauer_uebergabe_std
+
+# Lineare Funktion
+print(f"Lineare Funktion: Dauer_gesamt = {steigung_genehmigung:.2f} * Dauer_genehmigung + {steigung_bestellung:.2f} * Dauer_bestellung + {steigung_lieferung:.2f} * Dauer_lieferung + {steigung_uebergabe:.2f} * Dauer_uebergabe + b")
