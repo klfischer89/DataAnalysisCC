@@ -56,8 +56,9 @@ model.fit(X_train, y_train)
 print("Genauigkeit für Trainingsdaten:", model.score(X_train, y_train))
 print("Genauigkeitfür Testdaten:", model.score(X_test, y_test))
 
-print("y_train.shape:", y_train.shape)  # z.B. (70, Anz_Features)
-print("y_test.shape:", y_test.shape)  # Sollte (70,) sein
+# shape und length für targtes
+print("y_train.shape:", y_train.shape)
+print("y_test.shape:", y_test.shape)
 print("len(X):", len(y_train), "len(y):", len(y_train))
 
 # Predictions für TRAIN erstellen
