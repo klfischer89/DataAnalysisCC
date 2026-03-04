@@ -58,6 +58,7 @@ print("X.shape:", X.shape)
 print("y.shape:", y.shape) 
 print("len(X):", len(X), "len(y):", len(y))
 
+# Train und Test Daten bereitstellen
 X_train, X_test, y_train, y_test = train_test_split(X, y, train_size = 0.75)
 
 # Modell erstellen
@@ -147,3 +148,35 @@ steigung_uebergabe = korrelation_uebergabe * dauer_gesamt_std/dauer_uebergabe_st
 
 # Lineare Funktion
 print(f"Lineare Funktion: Dauer_gesamt = {steigung_genehmigung:.2f} * Dauer_genehmigung + {steigung_bestellung:.2f} * Dauer_bestellung + {steigung_lieferung:.2f} * Dauer_lieferung + {steigung_uebergabe:.2f} * Dauer_uebergabe + b")
+
+# Lineare Regression ohne Bestelldauer
+X_cols_neu = ["Dauer_genehmigung", "Dauer_lieferung", "Dauer_uebergabe"] + \
+         [col for col in df.columns if 'Abt_' in col or 'Prio_' in col]
+
+# Daten in Train und Test aufteilen
+# X = df_clean[["Dauer_genehmigung", "Dauer_bestellung", "Dauer_lieferung", "Dauer_uebergabe"]]
+X_neu = df_clean[X_cols_neu]
+y_neu = df_clean["Dauer_gesamt"]
+
+# Train und Test Daten bereitstellen
+X_train_neu, X_test_neu, y_train_neu, y_test_neu = train_test_split(X_neu, y_neu, train_size = 0.75)
+
+# Modell erstellen
+model_neu = LinearRegression()
+
+# Modell trainieren
+model_neu.fit(X_train_neu, y_train_neu)
+
+# Genauigkeiten des Modells für Trainings- und Testdaten
+print("Genauigkeit für Trainingsdaten:", model_neu.score(X_train_neu, y_train_neu))
+print("Genauigkeitfür Testdaten:", model_neu.score(X_test_neu, y_test_neu))
+
+# Predictions für TRAIN erstellen
+y_train_pred_neu = model_neu.predict(X_train_neu)
+
+# Predictions für TEST erstellen  
+y_test_pred_neu = model_neu.predict(X_test_neu)
+
+# Bestimmtheitsmaß
+print("R2 Train:", r2_score(y_train_neu, y_train_pred_neu)) 
+print("R2 Test: ", r2_score(y_test_neu, y_test_pred_neu))   
