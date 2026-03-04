@@ -44,7 +44,7 @@ print("X.shape:", X.shape)
 print("y.shape:", y.shape) 
 print("len(X):", len(X), "len(y):", len(y))
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, train_size = 0.75, random_state = 42)
+X_train, X_test, y_train, y_test = train_test_split(X, y, train_size = 0.75)
 
 # Modell erstellen
 model = LinearRegression()
