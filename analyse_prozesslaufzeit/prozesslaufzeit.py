@@ -39,6 +39,9 @@ df_clean = df.dropna()
 X = df_clean[["Dauer_genehmigung", "Dauer_bestellung", "Dauer_lieferung", "Dauer_uebergabe"]]
 y = df_clean["Dauer_gesamt"]
 
+# neuen Dateframe als csv speichern
+df_clean.to_csv("analyse_prozesslaufzeit\\csv\\hardwarebestellung_prozesse_clean.csv")
+
 # Shape und length anzeigen
 print("X.shape:", X.shape)  
 print("y.shape:", y.shape) 
