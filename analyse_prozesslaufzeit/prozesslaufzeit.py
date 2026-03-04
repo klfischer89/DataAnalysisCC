@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score   
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.preprocessing import LabelEncoder
 
 
 # Datei einlesen
@@ -180,3 +182,36 @@ y_test_pred_neu = model_neu.predict(X_test_neu)
 # Bestimmtheitsmaß
 print("R2 Train:", r2_score(y_train_neu, y_train_pred_neu)) 
 print("R2 Test: ", r2_score(y_test_neu, y_test_pred_neu))   
+
+# KNN für Abteilungen und Prioritäten als Kategorien
+
+# Priorität zu Zahlen kodieren
+label_encoder = LabelEncoder()
+df_clean['Prioritaet_num'] = label_encoder.fit_transform(df_clean['Prioritaet'])
+df_clean['Abteilung_num'] = label_encoder.fit_transform(df_clean['Abteilung'])
+
+# Numerische Features verwenden
+X = df_clean[["Prioritaet_num", "Abteilung_num"]].fillna(0)  # NaN → 0
+y = df_clean["Dauer_gesamt"]
+
+# Train/Test Split
+X_train_knn, X_test_knn, y_train_knn, y_test_knn = train_test_split(X, y, train_size=0.75, random_state=42)
+
+# Modell trainieren
+model_knn = KNeighborsClassifier(n_neighbors=8, p=1)
+model_knn.fit(X_train_knn, y_train_knn)
+
+# Genauigkeiten des Modells für Trainings- und Testdaten
+print("Genauigkeit für Trainingsdaten:", model_knn.score(X_train_knn, y_train_knn))
+print("Genauigkeit für Testdaten:", model_knn.score(X_test_knn, y_test_knn))
+
+# Predictions für TRAIN erstellen
+y_train_pred_knn = model_knn.predict(X_train_knn)
+
+# Predictions für TEST erstellen  
+y_test_pred_knn = model_knn.predict(X_test_knn)
+
+# Bestimmtheitsmaß
+print("R2 Train:", r2_score(y_train_knn, y_train_pred_knn)) 
+print("R2 Test: ", r2_score(y_test_knn, y_test_pred_knn))   
+
