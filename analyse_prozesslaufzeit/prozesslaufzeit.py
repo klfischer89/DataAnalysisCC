@@ -4,9 +4,12 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import r2_score   
+from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.preprocessing import LabelEncoder
+import tensorflow as tf
+import keras 
+from keras import layers
 
 
 # Datei einlesen
@@ -215,3 +218,53 @@ y_test_pred_knn = model_knn.predict(X_test_knn)
 print("R2 Train:", r2_score(y_train_knn, y_train_pred_knn)) 
 print("R2 Test: ", r2_score(y_test_knn, y_test_pred_knn))   
 
+# Deeplearning
+
+# Daten bereitstellen
+X_dl = df_clean[X_cols]
+y_dl = df_clean["Dauer_gesamt"]
+
+# Modell erstellen, Anzahl Neuronen und Aktivierungsfunktionen
+model_dl = keras.Sequential([
+    keras.Input(shape=(13,)),
+    layers.Dense(128, activation="relu"),
+    layers.Dense(1, activation="linear")  # ← Linear für Regression!
+])
+
+# Modell konfigurieren, Optimizer und Fehler
+model_dl.compile(
+    optimizer=keras.optimizers.Adam(0.001),  
+    loss=keras.losses.MeanSquaredError(),   # MSE für Regression
+    metrics=['mae']
+)
+
+X_train_dl, X_test_dl, y_train_dl, y_test_dl = train_test_split(X_dl, y_dl, test_size=0.2)
+
+history = model_dl.fit(X_train_dl, y_train_dl, 
+                      batch_size=32,  # ← 32 besser für kleine Daten
+                      epochs=100,
+                      validation_data=(X_test_dl, y_test_dl),
+                      verbose=1)
+
+# Test-Performance
+test_loss, test_mae = model_dl.evaluate(X_test, y_test, verbose=0)
+print(f"Test MAE: {test_mae:.2f}")
+print(f"Test MSE: {test_loss:.2f}")
+
+
+# RMSE und R2 berechnen
+y_pred_dl = model_dl.predict(X_test_dl).flatten()
+rmse = np.sqrt(mean_squared_error(y_test_dl, y_pred_dl))
+r2 = r2_score(y_test_dl, y_pred_dl)
+
+print(f"RMSE: {rmse:.2f}")
+print(f"R²: {r2:.3f}")
+
+# Visualisierung
+plt.figure(figsize=(10, 6))
+plt.scatter(y_test_dl, y_pred_dl, alpha=0.6)
+plt.plot([y_test_dl.min(), y_test_dl.max()], [y_test_dl.min(), y_test_dl.max()], 'r--', lw=2)
+plt.xlabel('Tatsächliche Dauer_gesamt')
+plt.ylabel('Vorhergesagte Dauer_gesamt')
+plt.title(f'Modell-Qualität (R²={r2:.3f})')
+plt.show()
