@@ -28,12 +28,12 @@ print("Varianz:")
 print(varRueckfragen)
 print(varDauer)
 
-steigung = kovarianz/varDauer
+steigung = kovarianz/varRueckfragen
 
 print("Steigung:")
 print(steigung)
 
-achsenabschnitt = mittelwertRueckfragen - steigung * mittelwertDauer
+achsenabschnitt = mittelwertDauer - steigung * mittelwertRueckfragen
 
 print("Achsenabschnitt:")
 print(achsenabschnitt)
